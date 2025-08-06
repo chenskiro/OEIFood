@@ -27,7 +27,6 @@
       "minecolonies:cabbage",
       "croptopia:cabbage",
       "sakura:cabbage",
-      null
     ],
     "resultItems": "farmersdelight:cabbage"
   },
@@ -51,7 +50,8 @@
       "braziliandelight:corn",
       "corn_delight:corn",
       "crockpot:corn",
-      "culturaldelights:corn_cob"
+      "culturaldelights:corn_cob",
+      "thermal:corn"
     ],
     "resultItems": "croptopia:corn"
   },
@@ -60,6 +60,7 @@
       "ltc2:pepper_red",
       "teastory:chili",
       "kaleidoscope_cookery:red_chili"
+      "crockpot:pepper"
     ],
     "resultItems": "croptopia:chile_pepper"
   },
@@ -104,6 +105,7 @@
     "matchItems": [
       "manors_bounty:strawberry",
       "farm_and_charm:strawberry"
+      "thermal:strawberry"
     ],
     "resultItems": "croptopia:strawberry"
   },
@@ -126,7 +128,6 @@
     ],
     "resultItems": "croptopia:eggplant"
   },
-  null,
   {
     "matchItems": [
       "croptopia:milk_bottle",
@@ -165,5 +166,106 @@
       "fruitsdelight:kiwi"
     ],
     "resultItems": "croptopia:kiwi"
+  },
+  {
+    "matchItems": [
+      "thermal:strawberry_seeds",
+      "farm_and_charm:strawberry_seeds"
+    ],
+    "resultItems": "croptopia:strawberry_seed"
+  },
+  {
+    "matchItems": [
+      "thermal:barley_seeds",
+      "farm_and_charm:barley_seeds"
+    ],
+    "resultItems": "croptopia:barley_seed"
+  },
+  {
+    "matchItems": [
+      "thermal:barley",
+      "farm_and_charm:barley",
+      "biomesoplenty:barley"
+    ],
+    "resultItems": "croptopia:barley"
+  },
+  {
+    "matchItems": [
+      "culturaldelights:cucumber_seeds",
+      "vintagedelight:cucumber_seeds",
+      "sushigocrafting:cucumber_seeds"
+    ],
+    "resultItems": "croptopia:cucumber_seed"
+  },
+  {
+    "matchItems": [
+      "sushigocrafting:cucumber_slices"
+    ],
+    "resultItems": "culturaldelights:cut_cucumber"
+  },
+  {
+    "matchItems": [
+      "sakura:cabbage_seeds",
+      "farmersdelight:cabbage_seeds"
+    ],
+    "resultItems": "croptopia:cabbage_seed"
+  },
+  {
+    "matchItems": [
+      "braziliandelight:coffee_seeds"
+    ],
+    "resultItems": "croptopia:coffee_seed"
+  },
+  {
+    "matchItems": [
+      "manors_bounty:hamimelon_seed"
+    ],
+    "resultItems": "croptopia:cantaloupe_seed"
+  },
+  {
+    "matchItems": [
+      "crockpot:garlic_seeds"
+    ],
+    "resultItems": "croptopia:garlic_seed"
+  },
+  {
+    "matchItems": [
+      "thermal:radish_seeds"
+    ],
+    "resultItems": "croptopia:radish_seed"
+  },
+  {
+    "matchItems": [
+      "farm_and_charm:lettuce_seeds",
+      "kaleidoscope_cookery:lettuce_seed"
+    ],
+    "resultItems": "croptopia:lettuce_seed"
+  },
+  {
+    "matchItems": [
+      "sakura:tomato_seeds",
+      "croptopia:tomato_seed",
+      "farm_and_charm:tomato_seeds",
+      "thermal:tomato_seeds",
+      "kaleidoscope_cookery:tomato_seed",
+      "crockpot:tomato_seeds"
+    ],
+    "resultItems": "farmersdelight:tomato_seeds"
+  },
+  {
+    "matchItems": [
+      "farm_and_charm:lettuce",
+      "kaleidoscope_cookery:lettuce"
+    ],
+    "resultItems": "croptopia:lettuce"
+  },
+  {
+    "matchItems": [
+      "sakura:soybean",
+      "minecolonies:soybean",
+      "sushigocrafting:soy_bean"
+    ],
+    "resultItems": "croptopia:soybean"
   }
+]
 ]
