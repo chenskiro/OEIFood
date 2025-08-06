@@ -266,6 +266,23 @@
       "sushigocrafting:soy_bean"
     ],
     "resultItems": "croptopia:soybean"
-  }
+  },
+  {
+    "matchItems": [
+      "thermal:rice",
+      "teastory:rice",
+      "sakura:rice"
+    ],
+    "resultItems": "croptopia:rice"
+  },
+  {
+    "matchItems": [
+      "farmersrespite:long_coffee",
+      "manors_bounty:coffee",
+      "farmersrespite:coffee",
+      "rusticdelight:coffee",
+      "farmersrespite:strong_coffee"
+    ],
+    "resultItems": "croptopia:coffee"
+    }
 ]
-
