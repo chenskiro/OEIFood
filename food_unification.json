@@ -1,122 +1,169 @@
 [
-    {
-        "matchItems": [
-            "croptopia:tomato",
-            "minecolonies:tomato",
-            "thermal:tomato",
-            "crockpot:tomato",
-            "kaleidoscope_cookery:tomato",
-            "farm_and_charm:tomato",
-            "sakura:tomato"
-        ],
-        "resultItems": "farmersdelight:tomato"
-    },
-    {
-        "matchItems": [
-            "minecolonies:garlic",
-            "dumplings_delight:garlic",
-            "manors_bounty:garlic",
-            "braziliandelight:garlic_bulb",
-            "ubesdelight:garlic",
-            "crockpot:garlic"
-        ],
-        "resultItems": "croptopia:garlic"
-    },
-    {
-        "matchItems": [
-            "minecolonies:cabbage",
-            "croptopia:cabbage"
-        ],
-        "resultItems": "farmersdelight:cabbage"
-    },
-    {
-        "matchItems": [
-
-        ],
-        "resultItems": "croptopia:lettuce"
-    },
-    {
-        "matchItems": [
-            "farm_and_charm:onion_crop",
-            "minecolonies:onion",
-            "thermal:onion",
-            "croptopia:onion",
-            "crockpot:onion"
-        ],
-        "resultItems": "farmersdelight:onions"
-    },
-    {
-        "matchItems": [
-
-        ],
-        "resultItems": "croptopia:cucumber"
-    },
-    {
-        "matchItems": [
-            "minecolonies:eggplant",
-            "culturaldelights:eggplant"
-        ],
-        "resultItems": "culturaldelights:eggplant"
-    },
-    {
-        "matchItems": [
-            "bountifulfares:maize",
-            "minecolonies:corn",
-            "manors_bounty:corn"
-        ],
-        "resultItems": "croptopia:corn"
-    },
-    {
-        "matchItems": [
-            "croptopia:chile_pepper",
-            "ltc2:peppers_red",
-            "teastory:chili"
-        ],
-        "resultItems": "croptopia:chile_pepper"
-    },
-    {
-        "matchItems": [
-            "manors_bounty:lemon",
-            "bountifulfares:lemon",
-            "braziliandelight:lemon"
-        ],
-        "resultItems": "fruitsdelight:lemon"
-    },
-    {
-        "matchItems": [
-            "manors_bounty:pomegranate",
-            "productivetrees:pomegranate"
-        ],
-        "resultItems": "collectorsreap:pomegranate"
-    },
-    {
-        "matchItems": [
-            "manors_bounty:grape"
-        ],
-        "resultItems": "croptopia:grape"
-    },
-    {
-        "matchItems": [
-            "bountifulfares:orange"
-        ],
-        "resultItems": "croptopia:orange"
-    },
-    {
-        "matchItems": [
-            "manors_bounty:blueberry"
-        ],
-        "resultItems": "fruitsdelight:blueberry"
-    },
-    {
-        "matchItems": [
-            "manors_bounty:strawberry"
-        ],
-        "resultItems": "croptopia:strawberry"
-    },
-    {
-        "matchItems": [
-            "pasterdream:milk_glassjar"
-        ],
-        "resultItems": "farmersdelight:milk_bottle"
-    }
+  {
+    "matchItems": [
+      "croptopia:tomato",
+      "minecolonies:tomato",
+      "thermal:tomato",
+      "crockpot:tomato",
+      "kaleidoscope_cookery:tomato",
+      "farm_and_charm:tomato",
+      "sakura:tomato"
+    ],
+    "resultItems": "farmersdelight:tomato"
+  },
+  {
+    "matchItems": [
+      "minecolonies:garlic",
+      "dumplings_delight:garlic",
+      "manors_bounty:garlic",
+      "braziliandelight:garlic",
+      "ubesdelight:garlic",
+      "crockpot:garlic"
+    ],
+    "resultItems": "croptopia:garlic"
+  },
+  {
+    "matchItems": [
+      "minecolonies:cabbage",
+      "croptopia:cabbage",
+      "sakura:cabbage",
+      null
+    ],
+    "resultItems": "farmersdelight:cabbage"
+  },
+  {
+    "matchItems": [
+      "farm_and_charm:onion",
+      "minecolonies:onion",
+      "thermal:onion",
+      "croptopia:onion",
+      "crockpot:onion"
+    ],
+    "resultItems": "farmersdelight:onion"
+  },
+  {
+    "matchItems": [
+      "bountifulfares:maize",
+      "minecolonies:corn",
+      "manors_bounty:corn",
+      "farm_and_charm:corn",
+      "crockpot:corn",
+      "braziliandelight:corn",
+      "corn_delight:corn",
+      "crockpot:corn",
+      "culturaldelights:corn_cob"
+    ],
+    "resultItems": "croptopia:corn"
+  },
+  {
+    "matchItems": [
+      "ltc2:pepper_red",
+      "teastory:chili",
+      "kaleidoscope_cookery:red_chili"
+    ],
+    "resultItems": "croptopia:chile_pepper"
+  },
+  {
+    "matchItems": [
+      "manors_bounty:lemon",
+      "bountifulfares:lemon",
+      "braziliandelight:lemon",
+      "fruitsdelight:lemon"
+    ],
+    "resultItems": "croptopia:lemon"
+  },
+  {
+    "matchItems": [
+      "manors_bounty:pomegranate",
+      "productivetrees:pomegranate"
+    ],
+    "resultItems": "collectorsreap:pomegranate"
+  },
+  {
+    "matchItems": [
+      "manors_bounty:grape",
+      "vinery:red_grape",
+      "youkaishomecoming:red_grape",
+      "teastory:grapes"
+    ],
+    "resultItems": "croptopia:grape"
+  },
+  {
+    "matchItems": [
+      "bountifulfares:orange"
+    ],
+    "resultItems": "croptopia:orange"
+  },
+  {
+    "matchItems": [
+      "manors_bounty:blueberry"
+    ],
+    "resultItems": "fruitsdelight:blueberry"
+  },
+  {
+    "matchItems": [
+      "manors_bounty:strawberry",
+      "farm_and_charm:strawberry"
+    ],
+    "resultItems": "croptopia:strawberry"
+  },
+  {
+    "matchItems": [
+      "culturaldelights:cucumber",
+      "youkaishomecoming:cucumber",
+      "vintagedelight:cucumber",
+      "teastory:cucumber"
+    ],
+    "resultItems": "croptopia:cucumber"
+  },
+  {
+    "matchItems": [
+      "culturaldelights:eggplant",
+      "minecolonies:eggplant",
+      "sakura:eggplant",
+      "crockpot:eggplant",
+      "dumplings_delight:eggplant"
+    ],
+    "resultItems": "croptopia:eggplant"
+  },
+  null,
+  {
+    "matchItems": [
+      "croptopia:milk_bottle",
+      "crockpot:milk_bottle",
+      "kitchenkarrot:milk",
+      "neapolitan:milk_bottle",
+      "vanillacookbook:milk_bottle"
+    ],
+    "resultItems": "farmersdelight:milk_bottle"
+  },
+  {
+    "matchItems": [
+      "fruitsdelight:pineapple",
+      "manors_bounty:pineapple",
+      "jellyfishing:pineapple"
+    ],
+    "resultItems": "croptopia:pineapple"
+  },
+  {
+    "matchItems": [
+      "manors_bounty:mango",
+      "fruitsdelight:mango"
+    ],
+    "resultItems": "croptopia:mango"
+  },
+  {
+    "matchItems": [
+      "manors_bounty:peach",
+      "fruitsdelight:peach",
+      "productivetrees:peach"
+    ],
+    "resultItems": "croptopia:peach"
+  },
+  {
+    "matchItems": [
+      "fruitsdelight:kiwi"
+    ],
+    "resultItems": "croptopia:kiwi"
+  }
 ]
