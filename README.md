@@ -7,4 +7,11 @@
 
 *选择 croptopia 原因：该mod物品较多，能尽量保证覆盖大多数物品
 
+# 使用方式
+OEI由数据包驱动，请手动创建数据包或按下默认快捷键 Ctrl + R 打开可视化编辑界面创建数据包
+
+将规则文件放置在路径 `<存档名称>/datapacks/<数据包名称>/data/oei/replacements`下即可
+
+关于OEI的详细信息请参考[官方文档](https://doc.sighs.cc/docs/oneenoughitem/doc/)
+
 若发现缺少物品请提交 pr 或 issue
