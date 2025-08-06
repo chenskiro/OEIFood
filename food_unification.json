@@ -6,37 +6,37 @@
             "thermal:tomato",
             "crockpot:tomato",
             "kaleidoscope_cookery:tomato",
-            "farm_and_charm:tomato"
+            "farm_and_charm:tomato",
+            "sakura:tomato"
         ],
         "resultItems": "farmersdelight:tomato"
     },
     {
         "matchItems": [
             "minecolonies:garlic",
-            "#forge:garlic",
             "dumplings_delight:garlic",
-            "manors_bounty:garlic"
+            "manors_bounty:garlic",
+            "braziliandelight:garlic_bulb",
+            "ubesdelight:garlic",
+            "crockpot:garlic"
         ],
         "resultItems": "croptopia:garlic"
     },
     {
         "matchItems": [
-            "#forge:cabbage",
-            "minecolonies:garlic",
-            "minecolonies:cabbage"
+            "minecolonies:cabbage",
+            "croptopia:cabbage"
         ],
         "resultItems": "farmersdelight:cabbage"
     },
     {
         "matchItems": [
-            "#forge:lettuce"
+
         ],
         "resultItems": "croptopia:lettuce"
     },
     {
         "matchItems": [
-            "#forge:onions",
-            "#forge:crops/onion",
             "farm_and_charm:onion_crop",
             "minecolonies:onion",
             "thermal:onion",
@@ -47,16 +47,12 @@
     },
     {
         "matchItems": [
-            "#forge:cucumbers",
-            "#forge:crops/cucumber"
+
         ],
         "resultItems": "croptopia:cucumber"
     },
     {
         "matchItems": [
-            "#forge:eggplant",
-            "#forge:eggplants",
-            "#forge:vegetables/eggplant",
             "minecolonies:eggplant",
             "culturaldelights:eggplant"
         ],
@@ -64,7 +60,6 @@
     },
     {
         "matchItems": [
-            "#forge:corn",
             "bountifulfares:maize",
             "minecolonies:corn",
             "manors_bounty:corn"
@@ -73,8 +68,6 @@
     },
     {
         "matchItems": [
-            "#forge:vegetables/chilipepper",
-            "#forge:vegetables/pepper",
             "croptopia:chile_pepper",
             "ltc2:peppers_red",
             "teastory:chili"
@@ -83,7 +76,6 @@
     },
     {
         "matchItems": [
-            "#forge:lemons",
             "manors_bounty:lemon",
             "bountifulfares:lemon",
             "braziliandelight:lemon"
@@ -99,16 +91,12 @@
     },
     {
         "matchItems": [
-            "#forge:fruits/grape",
-            "#forge:grapes",
             "manors_bounty:grape"
         ],
         "resultItems": "croptopia:grape"
     },
     {
         "matchItems": [
-            "#forge:fruits/orange",
-            "#forge:orange",
             "bountifulfares:orange"
         ],
         "resultItems": "croptopia:orange"
@@ -121,15 +109,12 @@
     },
     {
         "matchItems": [
-            "#forge:strawberry",
             "manors_bounty:strawberry"
         ],
         "resultItems": "croptopia:strawberry"
     },
     {
         "matchItems": [
-            "#forge:milk",
-            "#forge:milks",
             "pasterdream:milk_glassjar"
         ],
         "resultItems": "farmersdelight:milk_bottle"
