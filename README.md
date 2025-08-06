@@ -1,6 +1,7 @@
 # 食物规则
 使用 [One Enough Item](https://github.com/Tower-of-Sighs/OneEnoughItem) 模组合并相同类型食物
-使用该规则安装作物盛景mod可获得最大兼容性，建议安装农夫乐事
+
+使用该规则安装作物盛景mod可获得最大兼容性，推荐安装农夫乐事
 
 # 规则
 - 有农夫乐事（farmersdelight）优先选择
