@@ -26,7 +26,7 @@
     "matchItems": [
       "minecolonies:cabbage",
       "croptopia:cabbage",
-      "sakura:cabbage",
+      "sakura:cabbage"
     ],
     "resultItems": "farmersdelight:cabbage"
   },
@@ -59,7 +59,7 @@
     "matchItems": [
       "ltc2:pepper_red",
       "teastory:chili",
-      "kaleidoscope_cookery:red_chili"
+      "kaleidoscope_cookery:red_chili",
       "crockpot:pepper"
     ],
     "resultItems": "croptopia:chile_pepper"
@@ -104,7 +104,7 @@
   {
     "matchItems": [
       "manors_bounty:strawberry",
-      "farm_and_charm:strawberry"
+      "farm_and_charm:strawberry",
       "thermal:strawberry"
     ],
     "resultItems": "croptopia:strawberry"
@@ -284,5 +284,77 @@
       "farmersrespite:strong_coffee"
     ],
     "resultItems": "croptopia:coffee"
-    }
+  },
+  {
+    "matchItems": [
+      "dumplings_delight:greenonion"
+    ],
+    "resultItems": "croptopia:greenonion"
+  },
+  {
+    "matchItems": [
+      "manors_bounty:starfruit"
+    ],
+    "resultItems": "croptopia:starfruit"
+  },
+  {
+    "matchItems": [
+      "fruitsdelight:persimmon",
+      "productivetrees:persimmon"
+    ],
+    "resultItems": "croptopia:persimmon"
+  },
+  {
+    "matchItems": [
+      "teastory:chinese_cabbage"
+    ],
+    "resultItems": "dumplings_delight:chinese_cabbage"
+  },
+  {
+    "matchItems": [
+      "neapolitan:banana",
+      "productivetrees:banana",
+      "manors_bounty:banana"
+    ],
+    "resultItems": "croptopia:banana"
+  },
+  {
+    "matchItems": [
+      "manors_bounty:dragon_fruit"
+    ],
+    "resultItems": "croptopia:dragonfruit"
+  },
+  {
+    "matchItems": [
+      "thermal:peanut",
+      "vintagedelight:peanut",
+      "jellyfishing:seanut"
+    ],
+    "resultItems": "croptopia:peanut"
+  },
+  {
+    "matchItems": [
+      "jellyfishing:roasted_seanut"
+    ],
+    "resultItems": "vintagedelight:roasted_peanut"
+  },
+  {
+    "matchItems": [
+      "thermal:peanut_butter"
+    ],
+    "resultItems": "croptopia:peanut_butter"
+  },
+  {
+    "matchItems": [
+      "vintagedelight:pb_j",
+      "thermal:pbj_sandwich"
+    ],
+    "resultItems": "croptopia:peanut_butter_and_jam"
+  },
+  {
+    "matchItems": [
+      "thermal:peanut_seeds"
+    ],
+    "resultItems": "croptopia:peanut_seed"
+  }
 ]
