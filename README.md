@@ -1,5 +1,5 @@
 # 食物规则
-使用 one enough item 模组合并相同类型食物
+使用 [One Enough Item](https://github.com/Tower-of-Sighs/OneEnoughItem) 模组合并相同类型食物
 # 规则
 - 有农夫乐事（farmersdelight）优先选择
 - 否则选择作物盛景（croptopia）*
