@@ -7,7 +7,8 @@
       "crockpot:tomato",
       "kaleidoscope_cookery:tomato",
       "farm_and_charm:tomato",
-      "sakura:tomato"
+      "sakura:tomato",
+      "flavor_immersed_daily:tomato"
     ],
     "resultItems": "farmersdelight:tomato"
   },
@@ -26,7 +27,9 @@
     "matchItems": [
       "minecolonies:cabbage",
       "croptopia:cabbage",
-      "sakura:cabbage"
+      "sakura:cabbage",
+      "croptopia:cabbage",
+      "flavor_immersed_daily:cabbage"
     ],
     "resultItems": "farmersdelight:cabbage"
   },
@@ -36,7 +39,9 @@
       "minecolonies:onion",
       "thermal:onion",
       "croptopia:onion",
-      "crockpot:onion"
+      "crockpot:onion",
+      "sakura:onion",
+      "flavor_immersed_daily:onion"
     ],
     "resultItems": "farmersdelight:onion"
   },
@@ -306,7 +311,8 @@
   },
   {
     "matchItems": [
-      "teastory:chinese_cabbage"
+      "teastory:chinese_cabbage",
+      "flavor_immersed_daily:chineseleaves"
     ],
     "resultItems": "dumplings_delight:chinese_cabbage"
   },
@@ -356,5 +362,81 @@
       "thermal:peanut_seeds"
     ],
     "resultItems": "croptopia:peanut_seed"
+  },
+  {
+    "matchItems": [
+      "fruitsdelight:pear",
+      "productivetrees:pear"
+    ],
+    "resultItems": "croptopia:pear"
+  },
+  {
+    "matchItems": [
+      "farmersrespite:strong_melon_juice",
+      "vanillacookbook:melon_juice",
+      "croptopia:melon_juice",
+      "unusual_delight:melon_juice"
+    ],
+    "resultItems": "farmersdelight:melon_juice"
+  },
+  {
+    "matchItems": [
+      "vanillacookbook:chocolate",
+      "pasterdream:chocolate",
+      "manors_bounty:chocolate",
+      "flavor_immersed_daily:chocolate"
+    ],
+    "resultItems": "croptopia:chocolate"
+  },
+  {
+    "matchItems": [
+      "crockpot:asparagus"
+    ],
+    "resultItems": "croptopia:asparagus"
+  },
+  {
+    "matchItems": [
+      "crockpot:asparagus_seeds"
+    ],
+    "resultItems": "croptopia:asparagus_seed"
+  },
+  {
+    "matchItems": [
+      "sakura:eggplant_seeds",
+      "dumplings_delight:eggplant_seeds",
+      "flavor_immersed_daily:aubergineseed",
+      "flavor_immersed_daily:aubergineseedblock",
+      "crockpot:eggplant_seeds"
+    ],
+    "resultItems": "croptopia:eggplant_seed"
+  },
+  {
+    "matchItems": [
+      "sakura:onion_seeds",
+      "crockpot:onion_seeds",
+      "flavor_immersed_daily:onionseed"
+    ],
+    "resultItems": "croptopia:onion_seed"
+  },
+  {
+    "matchItems": [
+      "crockpot:pepper_seeds",
+      "teastory:chili_seeds",
+      "kaleidoscope_cookery:chili_seed"
+    ],
+    "resultItems": "croptopia:chile_pepper_seed"
+  },
+  {
+    "matchItems": [
+      "bountifulfares:maize_seeds",
+      "crockpot:corn_seeds"
+    ],
+    "resultItems": "croptopia:corn_seed"
+  },
+  {
+    "matchItems": [
+      "braziliandelight:cooked_corn"
+    ],
+    "resultItems": "corn_delight:grilled_corn"
   }
 ]
