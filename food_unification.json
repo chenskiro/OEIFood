@@ -198,7 +198,9 @@
     "matchItems": [
       "culturaldelights:cucumber_seeds",
       "vintagedelight:cucumber_seeds",
-      "sushigocrafting:cucumber_seeds"
+      "sushigocrafting:cucumber_seeds",
+      "youkaishomecoming:cucumber_seeds",
+      "flavor_immersed_daily:cucumber_seed"
     ],
     "resultItems": "croptopia:cucumber_seed"
   },
@@ -253,7 +255,8 @@
       "farm_and_charm:tomato_seeds",
       "thermal:tomato_seeds",
       "kaleidoscope_cookery:tomato_seed",
-      "crockpot:tomato_seeds"
+      "crockpot:tomato_seeds",
+      "flavor_immersed_daily:tomatoseed"
     ],
     "resultItems": "farmersdelight:tomato_seeds"
   },
@@ -422,7 +425,8 @@
     "matchItems": [
       "crockpot:pepper_seeds",
       "teastory:chili_seeds",
-      "kaleidoscope_cookery:chili_seed"
+      "kaleidoscope_cookery:chili_seed",
+      "croptopia:chile_pepper_seed"
     ],
     "resultItems": "croptopia:chile_pepper_seed"
   },
@@ -438,5 +442,29 @@
       "braziliandelight:cooked_corn"
     ],
     "resultItems": "corn_delight:grilled_corn"
+  },
+  {
+    "matchItems": [
+      "braziliandelight:collard_greens_seeds"
+    ],
+    "resultItems": "croptopia:kale_seed"
+  },
+  {
+    "matchItems": [
+      "braziliandelight:collard_greens"
+    ],
+    "resultItems": "croptopia:kale"
+  },
+  {
+    "matchItems": [
+      "bountifulfares:leek"
+    ],
+    "resultItems": "croptopia:leek"
+  },
+  {
+    "matchItems": [
+      "bountifulfares:leek_seeds"
+    ],
+    "resultItems": "croptopia:leek_seed"
   }
 ]
