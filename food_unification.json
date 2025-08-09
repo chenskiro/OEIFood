@@ -90,9 +90,18 @@
       "manors_bounty:grape",
       "vinery:red_grape",
       "youkaishomecoming:red_grape",
+      "youkaisfeasts:red_grape",
       "teastory:grapes"
     ],
     "resultItems": "croptopia:grape"
+  },
+  {
+    "matchItems": [
+      "youkaishomecoming:redbean",
+      "youkaisfeasts:redbean",
+      "sakura:red_bean"
+    ],
+    "resultItems": "neapolitan:adzuki_beans"
   },
   {
     "matchItems": [
@@ -119,7 +128,8 @@
       "culturaldelights:cucumber",
       "youkaishomecoming:cucumber",
       "vintagedelight:cucumber",
-      "teastory:cucumber"
+      "teastory:cucumber",
+      "youkaisfeasts:cucumber"
     ],
     "resultItems": "croptopia:cucumber"
   },
@@ -271,6 +281,8 @@
     "matchItems": [
       "sakura:soybean",
       "minecolonies:soybean",
+      "youkaishomecoming:soybean",
+      "youkaisfeasts:soybean",
       "sushigocrafting:soy_bean"
     ],
     "resultItems": "croptopia:soybean"
@@ -468,3 +480,4 @@
     "resultItems": "croptopia:leek_seed"
   }
 ]
+
