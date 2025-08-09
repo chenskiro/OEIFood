@@ -45,6 +45,8 @@
 <details>
 <summary>✅ 点击展开/折叠已支持的模组列表</summary>
 
+若没有被归类到农夫乐事和作物盛景mod时将做出提示
+
 - `biomesoplenty`
 - `bountifulfares`
 - `braziliandelight`
