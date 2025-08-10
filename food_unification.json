@@ -260,6 +260,18 @@
   },
   {
     "matchItems": [
+      "create:dough",
+      "farm_and_charm:dough",
+      "farmersdelight:wheat_dough",
+      "flavor_immersed_daily:dough",
+      "pamhc2foodcore:doughitem",
+      "pasterdream:dough",
+      "sakura:dough"
+    ],
+    "resultItems": "croptopia:dough"
+  },
+  {
+    "matchItems": [
       "manors_bounty:dragon_fruit"
     ],
     "resultItems": "croptopia:dragonfruit"
@@ -288,6 +300,19 @@
       "simplefarming:eggplant_seeds"
     ],
     "resultItems": "croptopia:eggplant_seed"
+  },
+  {
+    "matchItems": [
+      "argentinas_delight:harinadetrigo",
+      "bountifulfares:flour",
+      "farm_and_charm:flour",
+      "flavor_immersed_daily:wheatflour",
+      "ltc2:wheat_powder",
+      "pamhc2foodcore:flouritem",
+      "pasterdream:flour",
+      "sakura:flour"
+    ],
+    "resultItems": "croptopia:flour"
   },
   {
     "matchItems": [
