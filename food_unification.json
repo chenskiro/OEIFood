@@ -776,19 +776,6 @@
   },
   {
     "matchItems": [
-      "sushigocrafting:cucumber_slices"
-    ],
-    "resultItems": "culturaldelights:cut_cucumber"
-  },
-  {
-    "matchItems": [
-      "flavor_immersed_daily:chineseleaves",
-      "teastory:chinese_cabbage"
-    ],
-    "resultItems": "dumplings_delight:chinese_cabbage"
-  },
-  {
-    "matchItems": [
       "croptopia:cabbage",
       "flavor_immersed_daily:cabbage",
       "minecolonies:cabbage",
@@ -846,6 +833,7 @@
       "flavor_immersed_daily:tomato",
       "kaleidoscope_cookery:tomato",
       "minecolonies:tomato",
+      "pamhc2crops:tomatoitem",
       "sakura:tomato",
       "simplefarming:tomato",
       "thermal:tomato"
@@ -870,14 +858,6 @@
       "thermal:tomato_seeds"
     ],
     "resultItems": "farmersdelight:tomato_seeds"
-  },
-  {
-    "matchItems": [
-      "sakura:red_bean",
-      "youkaisfeasts:redbean",
-      "youkaishomecoming:redbean"
-    ],
-    "resultItems": "neapolitan:adzuki_beans"
   },
   {
     "matchItems": [
