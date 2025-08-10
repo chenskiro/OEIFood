@@ -67,68 +67,90 @@
 - 对于现有世界: 进入游戏，执行命令 `/reload` 即可。
 - 对于新世界: 在创建世界的“数据包”选项中，选择并启用本规则包。
   
-> OEI 提供了便捷的可视化编辑界面，默认快捷键 `Ctrl + R`，你可以用它来查看或临时修改规则。更多高级用法请参阅 OEI [官方文档](https://doc.sighs.cc/docs/oneenoughitem/doc/)
+> OEI 提供了便捷的可视化编辑界面，默认快捷键 `Ctrl + R`，你可以用它来查看或临时修改规则。更多高级用法请参阅 OEI [官方文档](https://doc.sighs.cc/docs/OneEnoughItem/intro)
 
 ## ✅ 已整合的模组列表
 
-本规则包目前已支持以下 Mod 的物品整合 (按字母排序):
-> 对应的模组汉化名称可在 [mcmod 百科](https://www.mcmod.cn/) 中直接复制英文到搜索栏查询
+本规则包目前已支持以下 Mod 的物品整合。为了方便查找和明确关系，我们将它们按依赖关系和主题进行了分类。
+
+列表可能会有遗漏或归类错误等问题，请以配置文件为准，如有错误请报告。
+ 
+> 你可以在 mcmod 百科 [<sup>1</sup>](https://www.mcmod.cn/) 等网站通过“模组 ID”快速查询到它们的中文译名和详细信息。
+
+备注栏解释：**当前行模组**的某个物品被统一为了**另一个模组**的特定物品，格式为：`中文名 (source_item_id) -> a_mod:target_item_id`。
+
+---
 
 <details>
-<summary>✅ 点击展开/折叠已支持的模组列表</summary>
+<summary>🌿 农夫乐事 (Farmer's Delight) 及其官方附属</summary>
 
-*以下注释仅标出不遵循主要优先级的特殊情况。*
+*此分类下的模组均在官方页面明确声明：需要“农夫乐事”作为前置运行。*
 
-- `alexsmobs`
-- `argentinas_delight`
-- `biomesoplenty`
-- `bountifulfares`
-- `braziliandelight`
-- `collectorsreap`
-- `corn_delight`
-- `crockpot`
-- `croptopia`
-- `culturaldelights`
-- `dumplings_delight`
-- `farm_and_charm`
-- `farmersdelight`
-- `farmersrespite`
-- `flavor_immersed_daily`
-  `* 该Mod的大白菜 (chineseleaves) 被归类到了 dumplings_delight 的大白菜 (chinese_cabbage)`
-- `fruitsdelight`
-- `jellyfishing`
-- `kaleidoscope_cookery`
-- `kitchenkarrot`
-- `ltc2`
-- `manors_bounty`
-- `minecolonies`
-- `muffins_thaidelight`
-- `neapolitan`
-- `pamhc2crops`
-- `pamhc2trees`
-- `pasterdream`
-- `productivetrees`
-- `rusticdelight`
-- `sakura`
-  `* 该Mod的红豆 (red_bean) 被归类到了 neapolitan 的红豆 (adzuki_beans)`
-- `seeddelight`
-- `simplefarming`
-- `sushigocrafting`
-  `* 该Mod的黄瓜片 (cucumber_slices) 被归类到了 culturaldelights 的切黄瓜 (cut_cucumber)`
-- `teastory`
-  `* 该Mod的大白菜 (chinese_cabbage) 被归类到了 dumplings_delight 的大白菜 (chinese_cabbage)`
-- `thermal`
-- `ubesdelight`
-- `unusual_delight`
-- `vanillacookbook`
-- `vinery`
-- `vintagedelight`
-- `youkaishomecoming`
-  `* 该Mod的红豆 (redbean) 被归类到了 neapolitan 的红豆 (adzuki_beans)`
-- `youkaisfeasts`
-  `* 该Mod的红豆 (redbean) 被归类到了 neapolitan 的红豆 (adzuki_beans)`
+| 模组名称 (Mod Name) & ID | 备注 (Notes) |
+| :--- | :--- |
+| **Farmer's Delight** (`farmersdelight`) | **核心模组** |
+| Argentina's Delight (`argentinas_delight`) | — |
+| Brazilian Delight (`braziliandelight`) | — |
+| Collector's Reap (`collectorsreap`) | — |
+| Corn Delight (`corn_delight`) | — |
+| Cultural Delights (`culturaldelights`) | — |
+| Dumplings Delight (`dumplings_delight`) | — |
+| Farmer's Respite (`farmersrespite`) | — |
+| Fruits Delight (`fruitsdelight`) | — |
+| Manors Bounty (`manors_bounty`) | — |
+| Muffins' Thai Delight (`muffins_thaidelight`) | — |
+| Rustic Delights (`rusticdelight`) | — |
+| Seed Delight (`seeddelight`) | — |
+| Ube's Delight (`ubesdelight`) | — |
+| Unusual Delights (`unusual_delight`) | — |
+| Vintage Delight (`vintagedelight`) | — |
 
 </details>
+
+<details>
+<summary>🍎 潘马斯农场 (Pam's HarvestCraft 2) 生态</summary>
+
+*潘马斯农场独立生态系统的核心模组。*
+
+| 模组名称 (Mod Name) & ID |
+| :--- |
+| **Pam's HarvestCraft 2 - Crops** (`pamhc2crops`) |
+| **Pam's HarvestCraft 2 - Trees** (`pamhc2trees`) |
+
+</details>
+
+<details>
+<summary>✨ 其他已兼容的独立模组</summary>
+
+| 模组名称 (Mod Name) & ID | 备注 (Notes) |
+| :--- | :--- |
+| Alex's Mobs (`alexsmobs`) | — |
+| Biomes O' Plenty (`biomesoplenty`) | — |
+| Bountiful Fares (`bountifulfares`) | — |
+| Crock Pot (`crockpot`) | — |
+| Croptopia (`croptopia`) | — |
+| Farm and Charm (`farm_and_charm`) | — |
+| Flavor Immersed Daily (`flavor_immersed_daily`) | `大白菜 (chineseleaves) -> dumplings_delight:chinese_cabbage` |
+| Jellyfishing (`jellyfishing`) | — |
+| Kaleidoscope Cookery (`kaleidoscope_cookery`) | — |
+| Kitchenkarrot (`kitchenkarrot`) | — |
+| Lt2 (`ltc2`) | — |
+| MineColonies (`minecolonies`) | — |
+| Neapolitan (`neapolitan`) | — |
+| Pasterdream (`pasterdream`) | — |
+| Productive Trees (`productivetrees`) | — |
+| Sakura (`sakura`) | `红豆 (red_bean) -> neapolitan:adzuki_beans` |
+| Simple Farming (`simplefarming`) | — |
+| Sushi Go Crafting (`sushigocrafting`) | `黄瓜片 (cucumber_slices) -> culturaldelights:cut_cucumber` |
+| Tea Story (`teastory`) | `大白菜 (chinese_cabbage) -> dumplings_delight:chinese_cabbage` |
+| Thermal Series (`thermal`) | — |
+| Vanilla Cookbook (`vanillacookbook`) | — |
+| Vinery (`vinery`) | — |
+| Youkai's Homecoming (`youkaishomecoming`) | `红豆 (redbean) -> neapolitan:adzuki_beans` |
+| Youkai's Feasts (`youkaisfeasts`) | `红豆 (redbean) -> neapolitan:adzuki_beans` |
+
+</details>
+
 
 ## 🤝 如何贡献
 非常欢迎您的贡献！如果您发现有未被整合的重复物品，或者有更好的整合建议，请：
