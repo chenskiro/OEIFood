@@ -23,7 +23,7 @@
     * **方式一**: 点击本页面右上角的 `Code` -> `Download ZIP` 下载整个项目。
     * **方式二 (Git)**: 使用 Git 克隆本仓库：
         ```bash
-        git clone [https://github.com/chenskiro/OEIFood.git](https://github.com/chenskiro/OEIFood.git)
+        git clone https://github.com/chenskiro/OEIFood.git
         ```
 
 3. **安装数据包**:
