@@ -1,5 +1,9 @@
 # 农业类mod合并规则
 
+[![GitHub Stars](https://img.shields.io/github/stars/chenskiro/OEIFood?style=flat-square)](https://github.com/chenskiro/OEIFood/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/chenskiro/OEIFood?style=flat-square)](https://github.com/chenskiro/OEIFood/issues)
+[![License](https://img.shields.io/github/license/chenskiro/OEIFood?style=flat-square)](https://github.com/chenskiro/OEIFood/blob/main/LICENSE)
+
 本项目提供了一套 [One Enough Item (OEI)](https://github.com/Tower-of-Sighs/OneEnoughItem) 的规则，旨在统一来自不同 Minecraft 农业、烹饪类 Mod 的重复物品（如多种番茄、洋葱、牛奶等），只需要导入即可使用。
 
 ## ⚙️ 整合原则
@@ -11,17 +15,34 @@
 3.  **再选 [潘马斯农场2 (Pam's HarvestCraft 2)](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-core):** 当以上两者均无对应物品时，优先选择潘马斯农场2。
 4.  **其他模组:** 最后，会选择农夫乐事的附属 Mod 或其他流行 Mod 中的物品。
  
-> 强烈推荐同时安装 **农夫乐事 (Farmer's Delight)**、**作物盛景 (Croptopia)** 和 **潘马斯农场2 (Pam's HarvestCraft 2)** 以获得最佳的兼容效果。
+强烈推荐同时安装 **农夫乐事 (Farmer's Delight)**、**作物盛景 (Croptopia)** 和 **潘马斯农场2 (Pam's HarvestCraft 2)** 以获得最佳的兼容效果。
 
-> 有差异的同类物品不会进行合并，如牛奶瓶和牛奶罐。
+> [!NOTE]
+> **关于无法合并的物品**
+> 为了保留不同 Mod 的特色，有显著差异的同类物品（如牛奶瓶和牛奶罐）不会进行合并。
+
+## ⚠️ 使用前须知
+ 
+> [!WARNING]
+> **为防止物品消失，请务必执行以下操作之一：**
+>
+> 本规则包无法自动检测你安装了哪些 Mod。如果一个物品被设置为统一到你未安装的 Mod 中（例如，将所有番茄统一到“农夫乐事”的番茄，但你没有安装“农夫乐事”），**该物品将会消失**。
+>
+> **你有两种解决方案：**
+>
+> 1.  **推荐方案 (适合大多数玩家):**
+>     根据上方的 **[整合原则](#-整合原则)**, 安装推荐的核心 Mod (如农夫乐事、作物盛景等)。这是最简单、开箱即用的方法。
+>
+> 2.  **自定义方案 (适合高级用户):**
+>     如果你不想安装某个目标 Mod，可以**手动编辑规则文件 (`food_unification.json`)**，将物品的统一目标修改为你已安装的 Mod 中的对应物品。
 
 ## 🔧 安装与使用
  
 1. **前置要求**: 请确保你已经安装了 [**One Enough Item (OEI)**](https://github.com/Tower-of-Sighs/OneEnoughItem) 这个 Mod。
  
-2.  **下载规则文件**:
-    * **方式一**: 点击本页面右上角的 `Code` -> `Download ZIP` 下载整个项目。
-    * **方式二 (Git)**: 使用 Git 克隆本仓库：
+2.  **下载规则文件 (二选一)**:
+    *   **直接下载**: 点击本页面右上角的绿色 `Code` 按钮，然后选择 `Download ZIP` 下载整个项目。
+    *   **使用 Git**: 如果你熟悉 Git，可以克隆本仓库：
         ```bash
         git clone https://github.com/chenskiro/OEIFood.git
         ```
@@ -101,7 +122,7 @@
 </details>
 
 ## 🤝 如何贡献
-如果你发现有未被整合的重复物品，或者有更好的整合建议，请：
+非常欢迎您的贡献！如果您发现有未被整合的重复物品，或者有更好的整合建议，请：
 
 - 提交 Issue: 在本项目的 Issue 页面描述你发现的问题或建议。
 - 提交 Pull Request (PR): 如果你熟悉 JSON 格式，可以直接修改 food_unification.json 文件并提交 PR。
