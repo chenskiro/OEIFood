@@ -1,19 +1,6 @@
 [
   {
     "matchItems": [
-      "manors_bounty:pomegranate",
-      "productivetrees:pomegranate"
-    ],
-    "resultItems": "collectorsreap:pomegranate"
-  },
-  {
-    "matchItems": [
-      "braziliandelight:cooked_corn"
-    ],
-    "resultItems": "corn_delight:grilled_corn"
-  },
-  {
-    "matchItems": [
       "flavor_immersed_daily:apricot",
       "simplefarming:apricot"
     ],
@@ -27,13 +14,27 @@
   },
   {
     "matchItems": [
-      "crockpot:asparagus"
+      "pamhc2crops:artichokeitem"
+    ],
+    "resultItems": "croptopia:artichoke"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:artichokeseeditem"
+    ],
+    "resultItems": "croptopia:artichoke_seed"
+  },
+  {
+    "matchItems": [
+      "crockpot:asparagus",
+      "pamhc2crops:asparagusitem"
     ],
     "resultItems": "croptopia:asparagus"
   },
   {
     "matchItems": [
-      "crockpot:asparagus_seeds"
+      "crockpot:asparagus_seeds",
+      "pamhc2crops:asparagusseeditem"
     ],
     "resultItems": "croptopia:asparagus_seed"
   },
@@ -58,6 +59,8 @@
     "matchItems": [
       "biomesoplenty:barley",
       "farm_and_charm:barley",
+      "pamhc2crops:barleyitem",
+      "simplefarming:barley",
       "thermal:barley"
     ],
     "resultItems": "croptopia:barley"
@@ -65,32 +68,76 @@
   {
     "matchItems": [
       "farm_and_charm:barley_seeds",
+      "pamhc2crops:barleyseeditem",
+      "simplefarming:barley_seeds",
       "thermal:barley_seeds"
     ],
     "resultItems": "croptopia:barley_seed"
   },
   {
     "matchItems": [
-      "manors_bounty:hamimelon_seed"
+      "pamhc2crops:blackberryitem",
+      "simplefarming:blackberries"
+    ],
+    "resultItems": "croptopia:blackberry"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:blueberry",
+      "fruitsdelight:blueberry",
+      "manors_bounty:blueberry",
+      "simplefarming:blueberries"
+    ],
+    "resultItems": "croptopia:blueberry"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:blueberryseed",
+      "pamhc2crops:blueberryseeditem"
+    ],
+    "resultItems": "croptopia:blueberry_seed"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:broccoliitem"
+    ],
+    "resultItems": "croptopia:broccoli"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:broccoliseeditem"
+    ],
+    "resultItems": "croptopia:broccoli_seed"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:cantaloupeitem",
+      "simplefarming:cantaloupe"
+    ],
+    "resultItems": "croptopia:cantaloupe"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:hamimelonseed",
+      "manors_bounty:hamimelon_seed",
+      "pamhc2crops:cantaloupeseeditem",
+      "simplefarming:cantaloupe_seeds"
     ],
     "resultItems": "croptopia:cantaloupe_seed"
   },
   {
     "matchItems": [
-      "crockpot:pepper_seeds",
-      "kaleidoscope_cookery:chili_seed",
-      "teastory:chili_seeds"
+      "flavor_immersed_daily:cauliflower",
+      "pamhc2crops:caulifloweritem"
     ],
-    "resultItems": "croptopia:chile_pepper_seed"
+    "resultItems": "croptopia:cauliflower"
   },
   {
     "matchItems": [
-      "crockpot:pepper",
-      "kaleidoscope_cookery:red_chili",
-      "ltc2:pepper_red",
-      "teastory:chili"
+      "flavor_immersed_daily:cauliflower_seed",
+      "pamhc2crops:cauliflowerseeditem"
     ],
-    "resultItems": "croptopia:chile_pepper"
+    "resultItems": "croptopia:cauliflower_seed"
   },
   {
     "matchItems": [
@@ -100,6 +147,26 @@
       "vinery:cherry"
     ],
     "resultItems": "croptopia:cherry"
+  },
+  {
+    "matchItems": [
+      "crockpot:pepper",
+      "kaleidoscope_cookery:red_chili",
+      "ltc2:pepper_red",
+      "muffins_thaidelight:pepper",
+      "pamhc2crops:chilipepperitem",
+      "simplefarming:pepper",
+      "teastory:chili"
+    ],
+    "resultItems": "croptopia:chile_pepper"
+  },
+  {
+    "matchItems": [
+      "crockpot:pepper_seeds",
+      "kaleidoscope_cookery:chili_seed",
+      "teastory:chili_seeds"
+    ],
+    "resultItems": "croptopia:chile_pepper_seed"
   },
   {
     "matchItems": [
@@ -128,14 +195,18 @@
   },
   {
     "matchItems": [
+      "argentinas_delight:choclo",
       "bountifulfares:maize",
       "braziliandelight:corn",
       "corn_delight:corn",
       "crockpot:corn",
       "culturaldelights:corn_cob",
       "farm_and_charm:corn",
+      "flavor_immersed_daily:corn",
       "manors_bounty:corn",
       "minecolonies:corn",
+      "pamhc2crops:cornitem",
+      "simplefarming:corn",
       "thermal:corn"
     ],
     "resultItems": "croptopia:corn"
@@ -143,17 +214,35 @@
   {
     "matchItems": [
       "bountifulfares:maize_seeds",
-      "crockpot:corn_seeds"
+      "crockpot:corn_seeds",
+      "pamhc2crops:cornseeditem",
+      "simplefarming:corn_seeds"
     ],
     "resultItems": "croptopia:corn_seed"
   },
   {
     "matchItems": [
+      "fruitsdelight:cranberry",
+      "manors_bounty:cranberry",
+      "pamhc2crops:cranberryitem"
+    ],
+    "resultItems": "croptopia:cranberry"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:cranberryseeditem"
+    ],
+    "resultItems": "croptopia:cranberry_seed"
+  },
+  {
+    "matchItems": [
       "culturaldelights:cucumber",
+      "flavor_immersed_daily:cucumber",
+      "simplefarming:cucumber",
       "teastory:cucumber",
       "vintagedelight:cucumber",
-      "youkaishomecoming:cucumber",
-      "youkaisfeasts:cucumber"
+      "youkaisfeasts:cucumber",
+      "youkaishomecoming:cucumber"
     ],
     "resultItems": "croptopia:cucumber"
   },
@@ -161,6 +250,8 @@
     "matchItems": [
       "culturaldelights:cucumber_seeds",
       "flavor_immersed_daily:cucumber_seed",
+      "pamhc2crops:cucumberseeditem",
+      "simplefarming:cucumber_seeds",
       "sushigocrafting:cucumber_seeds",
       "vintagedelight:cucumber_seeds",
       "youkaishomecoming:cucumber_seeds"
@@ -179,17 +270,22 @@
       "culturaldelights:eggplant",
       "dumplings_delight:eggplant",
       "minecolonies:eggplant",
-      "sakura:eggplant"
+      "pamhc2crops:eggplantitem",
+      "sakura:eggplant",
+      "simplefarming:eggplant"
     ],
     "resultItems": "croptopia:eggplant"
   },
   {
     "matchItems": [
       "crockpot:eggplant_seeds",
+      "culturaldelights:eggplant_seeds",
       "dumplings_delight:eggplant_seeds",
       "flavor_immersed_daily:aubergineseed",
       "flavor_immersed_daily:aubergineseedblock",
-      "sakura:eggplant_seeds"
+      "pamhc2crops:eggplantseeditem",
+      "sakura:eggplant_seeds",
+      "simplefarming:eggplant_seeds"
     ],
     "resultItems": "croptopia:eggplant_seed"
   },
@@ -212,21 +308,61 @@
   },
   {
     "matchItems": [
+      "pamhc2crops:garlicseeditem"
+    ],
+    "resultItems": "croptopia:garlic_seed"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:ginger",
+      "pamhc2crops:gingeritem",
+      "simplefarming:ginger",
+      "ubesdelight:ginger"
+    ],
+    "resultItems": "croptopia:ginger"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:ginger_seed",
+      "pamhc2crops:gingerseeditem",
+      "simplefarming:ginger_seeds"
+    ],
+    "resultItems": "croptopia:ginger_seed"
+  },
+  {
+    "matchItems": [
       "flavor_immersed_daily:grape",
       "manors_bounty:grape",
+      "pamhc2crops:grapeitem",
       "simplefarming:grapes",
       "teastory:grapes",
       "vinery:red_grape",
-      "youkaishomecoming:red_grape",
-      "youkaisfeasts:red_grape"
+      "youkaisfeasts:red_grape",
+      "youkaishomecoming:red_grape"
     ],
     "resultItems": "croptopia:grape"
   },
   {
     "matchItems": [
-      "dumplings_delight:greenonion"
+      "flavor_immersed_daily:grapeseed",
+      "manors_bounty:grape_seed",
+      "pamhc2crops:grapeseeditem",
+      "simplefarming:grape_seeds"
+    ],
+    "resultItems": "croptopia:grape_seed"
+  },
+  {
+    "matchItems": [
+      "dumplings_delight:greenonion",
+      "pamhc2crops:scallionitem"
     ],
     "resultItems": "croptopia:greenonion"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:scallionseeditem"
+    ],
+    "resultItems": "croptopia:greenonion_seed"
   },
   {
     "matchItems": [
@@ -306,22 +442,56 @@
   },
   {
     "matchItems": [
+      "farm_and_charm:oat",
+      "flavor_immersed_daily:oat",
+      "pamhc2crops:oatsitem",
+      "simplefarming:oat",
+      "vintagedelight:oat"
+    ],
+    "resultItems": "croptopia:oat"
+  },
+  {
+    "matchItems": [
+      "farm_and_charm:oat_seeds",
+      "flavor_immersed_daily:oatseed",
+      "pamhc2crops:oatsseeditem",
+      "simplefarming:oat_seeds",
+      "vintagedelight:oat_seeds"
+    ],
+    "resultItems": "croptopia:oat_seed"
+  },
+  {
+    "matchItems": [
       "manors_bounty:olive_fruit",
+      "pamhc2trees:oliveitem",
+      "productivetrees:olive",
       "simplefarming:olives"
     ],
     "resultItems": "croptopia:olive"
   },
   {
     "matchItems": [
+      "manors_bounty:olive_fruit_seed"
+    ],
+    "resultItems": "croptopia:olive_seed"
+  },
+  {
+    "matchItems": [
       "crockpot:onion_seeds",
       "flavor_immersed_daily:onionseed",
-      "sakura:onion_seeds"
+      "pamhc2crops:onionseeditem",
+      "sakura:onion_seeds",
+      "simplefarming:onion_seeds"
     ],
     "resultItems": "croptopia:onion_seed"
   },
   {
     "matchItems": [
-      "bountifulfares:orange"
+      "bountifulfares:orange",
+      "flavor_immersed_daily:orange",
+      "pamhc2trees:orangeitem",
+      "productivetrees:orange",
+      "simplefarming:orange"
     ],
     "resultItems": "croptopia:orange"
   },
@@ -335,7 +505,10 @@
   },
   {
     "matchItems": [
+      "flavor_immersed_daily:peanut",
       "jellyfishing:seanut",
+      "pamhc2crops:peanutitem",
+      "simplefarming:peanut",
       "thermal:peanut",
       "vintagedelight:peanut"
     ],
@@ -356,14 +529,19 @@
   },
   {
     "matchItems": [
+      "pamhc2crops:peanutseeditem",
+      "simplefarming:peanut_seeds",
       "thermal:peanut_seeds"
     ],
     "resultItems": "croptopia:peanut_seed"
   },
   {
     "matchItems": [
+      "flavor_immersed_daily:pear",
       "fruitsdelight:pear",
-      "productivetrees:pear"
+      "pamhc2trees:pearitem",
+      "productivetrees:pear",
+      "simplefarming:pear"
     ],
     "resultItems": "croptopia:pear"
   },
@@ -384,13 +562,57 @@
   },
   {
     "matchItems": [
+      "flavor_immersed_daily:plum",
+      "pamhc2trees:plumitem",
+      "productivetrees:plum",
+      "simplefarming:plum"
+    ],
+    "resultItems": "croptopia:plum"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:radishitem",
+      "simplefarming:radish"
+    ],
+    "resultItems": "croptopia:radish"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:radishseeditem",
       "thermal:radish_seeds"
     ],
     "resultItems": "croptopia:radish_seed"
   },
   {
     "matchItems": [
+      "pamhc2crops:raspberryitem",
+      "simplefarming:raspberries"
+    ],
+    "resultItems": "croptopia:raspberry"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:raspberryseeditem"
+    ],
+    "resultItems": "croptopia:raspberry_seed"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:rhubarbitem"
+    ],
+    "resultItems": "croptopia:rhubarb"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:rhubarbseeditem"
+    ],
+    "resultItems": "croptopia:rhubarb_seed"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:riceitem",
       "sakura:rice",
+      "simplefarming:rice",
       "teastory:rice",
       "thermal:rice"
     ],
@@ -398,13 +620,57 @@
   },
   {
     "matchItems": [
+      "pamhc2crops:riceseeditem",
+      "sakura:rice_seeds",
+      "simplefarming:rice_seeds"
+    ],
+    "resultItems": "croptopia:rice_seed"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:rutabagaitem"
+    ],
+    "resultItems": "croptopia:rutabaga"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:rutabagaseeditem"
+    ],
+    "resultItems": "croptopia:rutabaga_seed"
+  },
+  {
+    "matchItems": [
       "minecolonies:soybean",
       "sakura:soybean",
+      "simplefarming:soybean",
       "sushigocrafting:soy_bean",
-      "youkaishomecoming:soybean",
-      "youkaisfeasts:soybean"
+      "youkaisfeasts:soybean",
+      "youkaishomecoming:soybean"
     ],
     "resultItems": "croptopia:soybean"
+  },
+  {
+    "matchItems": [
+      "simplefarming:soybean_seeds"
+    ],
+    "resultItems": "croptopia:soybean_seed"
+  },
+  {
+    "matchItems": [
+      "argentinas_delight:espinacaitem",
+      "flavor_immersed_daily:spinach",
+      "pamhc2crops:spinachitem",
+      "simplefarming:spinach"
+    ],
+    "resultItems": "croptopia:spinach"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:spinach_seed",
+      "pamhc2crops:spinachseeditem",
+      "simplefarming:spinach_seeds"
+    ],
+    "resultItems": "croptopia:spinach_seed"
   },
   {
     "matchItems": [
@@ -415,7 +681,11 @@
   {
     "matchItems": [
       "farm_and_charm:strawberry",
+      "flavor_immersed_daily:strawberry",
       "manors_bounty:strawberry",
+      "neapolitan:strawberries",
+      "pamhc2crops:strawberryitem",
+      "simplefarming:strawberries",
       "thermal:strawberry"
     ],
     "resultItems": "croptopia:strawberry"
@@ -426,6 +696,58 @@
       "thermal:strawberry_seeds"
     ],
     "resultItems": "croptopia:strawberry_seed"
+  },
+  {
+    "matchItems": [
+      "argentinas_delight:batata",
+      "flavor_immersed_daily:sweetpotato",
+      "pamhc2crops:sweetpotatoitem",
+      "simplefarming:sweet_potato"
+    ],
+    "resultItems": "croptopia:sweetpotato"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:sweetpotatoseeditem"
+    ],
+    "resultItems": "croptopia:sweetpotato_seed"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:turnipitem",
+      "simplefarming:turnip"
+    ],
+    "resultItems": "croptopia:turnip"
+  },
+  {
+    "matchItems": [
+      "pamhc2crops:turnipseeditem",
+      "simplefarming:turnip_seeds"
+    ],
+    "resultItems": "croptopia:turnip_seed"
+  },
+  {
+    "matchItems": [
+      "simplefarming:yam_seeds"
+    ],
+    "resultItems": "croptopia:yam_seed"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:zucchini",
+      "pamhc2crops:zucchiniitem",
+      "simplefarming:squash",
+      "simplefarming:zucchini"
+    ],
+    "resultItems": "croptopia:zucchini"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:zucchiniseed",
+      "pamhc2crops:zucchiniseeditem",
+      "simplefarming:zucchini_seeds"
+    ],
+    "resultItems": "croptopia:zucchini_seed"
   },
   {
     "matchItems": [
@@ -451,10 +773,12 @@
   },
   {
     "matchItems": [
-      "farmersdelight:cabbage_seeds",
+      "croptopia:cabbage_seed",
+      "flavor_immersed_daily:cabbageseed",
+      "pamhc2crops:cabbageseeditem",
       "sakura:cabbage_seeds"
     ],
-    "resultItems": "croptopia:cabbage_seed"
+    "resultItems": "farmersdelight:cabbage_seeds"
   },
   {
     "matchItems": [
@@ -482,7 +806,9 @@
       "farm_and_charm:onion",
       "flavor_immersed_daily:onion",
       "minecolonies:onion",
+      "pamhc2crops:onionitem",
       "sakura:onion",
+      "simplefarming:onion",
       "thermal:onion"
     ],
     "resultItems": "farmersdelight:onion"
@@ -522,22 +848,82 @@
   },
   {
     "matchItems": [
-      "manors_bounty:blueberry"
-    ],
-    "resultItems": "fruitsdelight:blueberry"
-  },
-  {
-    "matchItems": [
       "sakura:red_bean",
-      "youkaishomecoming:redbean",
-      "youkaisfeasts:redbean"
+      "youkaisfeasts:redbean",
+      "youkaishomecoming:redbean"
     ],
     "resultItems": "neapolitan:adzuki_beans"
   },
   {
     "matchItems": [
-      "jellyfishing:roasted_seanut"
+      "simplefarming:cactus_fruit"
     ],
-    "resultItems": "vintagedelight:roasted_peanut"
+    "resultItems": "pamhc2crops:cactusfruititem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:cassava_2",
+      "simplefarming:cassava"
+    ],
+    "resultItems": "pamhc2crops:cassavaitem"
+  },
+  {
+    "matchItems": [
+      "simplefarming:cassava_seeds"
+    ],
+    "resultItems": "pamhc2crops:cassavaseeditem"
+  },
+  {
+    "matchItems": [
+      "pasterdream:cotton",
+      "rusticdelight:cotton_boll",
+      "simplefarming:cotton"
+    ],
+    "resultItems": "pamhc2crops:cottonitem"
+  },
+  {
+    "matchItems": [
+      "rusticdelight:cotton_seeds",
+      "simplefarming:cotton_seeds"
+    ],
+    "resultItems": "pamhc2crops:cottonseeditem"
+  },
+  {
+    "matchItems": [
+      "simplefarming:quinoa_seeds"
+    ],
+    "resultItems": "pamhc2crops:quinoaseeditem"
+  },
+  {
+    "matchItems": [
+      "simplefarming:rye"
+    ],
+    "resultItems": "pamhc2crops:ryeitem"
+  },
+  {
+    "matchItems": [
+      "simplefarming:rye_seeds"
+    ],
+    "resultItems": "pamhc2crops:ryeseeditem"
+  },
+  {
+    "matchItems": [
+      "simplefarming:sorghum"
+    ],
+    "resultItems": "pamhc2crops:sorghumitem"
+  },
+  {
+    "matchItems": [
+      "simplefarming:sorghum_seeds"
+    ],
+    "resultItems": "pamhc2crops:sorghumseeditem"
+  },
+  {
+    "matchItems": [
+      "collectorsreap:pomegranate",
+      "manors_bounty:pomegranate",
+      "productivetrees:pomegranate"
+    ],
+    "resultItems": "pamhc2trees:pomegranateitem"
   }
 ]
