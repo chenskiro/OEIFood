@@ -174,6 +174,8 @@
 
 若您提交PR，请务必使用仓库中的 `sort_food.py` 对 `food_unification.json` 文件进行重排序，以确保顺序一致，并进行游戏内测试。
 
+（以改进`sort_food.py`为目的的提交除外）
+
 **使用方式：**
 ```bash
 python sort_food.py food_unification.json
