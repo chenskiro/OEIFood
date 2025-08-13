@@ -1,0 +1,92 @@
+# .github/workflows/create_datapack_release.yml
+
+name: Create Datapack Release on Food Unification Change
+
+# 触发器：仅当 food_unification.json 文件被推送到 main 分支时运行
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "food_unification.json"
+
+# 定义权限，允许 action 创建 Release
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    name: Build and Create Pre-release
+    runs-on: ubuntu-latest
+    steps:
+      # 步骤 1: 检出代码
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 步骤 2: 为不同版本的数据包创建临时构建目录
+      - name: Create Staging Directories
+        run: |
+          mkdir -p staging_1_20_1/data/oei/replacements
+          mkdir -p staging_1_21_1/data/oei/replacements
+
+      # 步骤 3: 为 Minecraft 1.20.1 创建 pack.mcmeta 文件
+      # 注意: 1.20.1 的 pack_format 是 15
+      - name: Create pack.mcmeta for 1.20.1
+        run: |
+          echo '{
+            "pack": {
+              "pack_format": 15,
+              "description": "Food Unification Data Pack for 1.20.1"
+            }
+          }' > staging_1_20_1/pack.mcmeta
+
+      # 步骤 4: 为 Minecraft 1.21 创建 pack.mcmeta 文件
+      - name: Create pack.mcmeta for 1.21.1
+        run: |
+          echo '{
+            "pack": {
+              "pack_format": 48,
+              "description": "Food Unification Data Pack for 1.21"
+            }
+          }' > staging_1_21_1/pack.mcmeta
+
+      # 步骤 5: 将 food_unification.json 复制到两个构建目录中
+      - name: Copy food_unification.json
+        run: |
+          cp food_unification.json staging_1_20_1/data/oei/replacements/
+          cp food_unification.json staging_1_21_1/data/oei/replacements/
+
+      # 步骤 6: 打包 1.20.1 版本
+      - name: Package for 1.20.1
+        run: |
+          cd staging_1_20_1
+          zip -r ../food-unification-1.20.1.zip .
+          cd ..
+
+      # 步骤 7: 打包 1.21.1 版本
+      # 注意：虽然MC版本是1.21.1，但pack_format通常对应主版本1.21
+      - name: Package for 1.21.1
+        run: |
+          cd staging_1_21_1
+          zip -r ../food-unification-1.21.1.zip .
+          cd ..
+
+      # 步骤 8: 创建预发布版本并上传产物
+      - name: Create Pre-release
+        uses: softprops/action-gh-release@v2
+        with:
+          # 将每次运行的产物都发布出去，以便测试
+          prerelease: true
+          # 使用运行编号创建一个唯一的、临时的 tag
+          tag_name: run-${{ github.run_number }}
+          # Release 的标题
+          name: "Auto-build from commit ${{ github.sha }}"
+          # Release 的描述内容
+          body: |
+            This is an automated pre-release triggered by a change to `food_unification.json`.
+            Commit: ${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}
+          # 需要上传的文件列表
+          files: |
+            food-unification-1.20.1.zip
+            food-unification-1.21.1.zip
+            food_unification.json
