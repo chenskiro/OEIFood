@@ -1021,5 +1021,11 @@
       "productivetrees:pomegranate"
     ],
     "resultItems": "pamhc2trees:pomegranateitem"
+  },
+    {
+    "matchItems": [
+      "test"
+    ],
+    "resultItems": "test"
   }
 ]
