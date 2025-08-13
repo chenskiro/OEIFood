@@ -111,6 +111,25 @@
   },
   {
     "matchItems": [
+      "braziliandelight:butter",
+      "extradelight:butter",
+      "farm_and_charm:butter",
+      "flavor_immersed_daily:butter",
+      "manors_bounty:butter",
+      "minecolonies:butter",
+      "pamhc2foodcore:butteritem",
+      "youkaishomecoming:butter"
+    ],
+    "resultItems": "croptopia:butter"
+  },
+  {
+    "matchItems": [
+      "extradelight:buttered_toast"
+    ],
+    "resultItems": "croptopia:buttered_toast"
+  },
+  {
+    "matchItems": [
       "pamhc2crops:cantaloupeitem",
       "simplefarming:cantaloupe"
     ],
@@ -138,6 +157,20 @@
       "pamhc2crops:cauliflowerseeditem"
     ],
     "resultItems": "croptopia:cauliflower_seed"
+  },
+  {
+    "matchItems": [
+      "argentinas_delight:queso",
+      "extradelight:cheese",
+      "meadow:piece_of_cheese",
+      "pamhc2foodcore:cheeseitem",
+      "sakura:cheese",
+      "simplefarming:cheese_slice",
+      "trailandtales_delight:cheese_slice",
+      "vanillacookbook:cheese",
+      "vintagedelight:cheese_slice"
+    ],
+    "resultItems": "croptopia:cheese"
   },
   {
     "matchItems": [
@@ -179,6 +212,23 @@
   },
   {
     "matchItems": [
+      "extradelight:cinnamon_stick",
+      "festive_delight:cinnamon_sticks",
+      "pamhc2trees:cinnamonitem",
+      "productivetrees:cinnamon"
+    ],
+    "resultItems": "croptopia:cinnamon"
+  },
+  {
+    "matchItems": [
+      "extradelight:cinnamon_sapling",
+      "pamhc2trees:cinnamon_sapling",
+      "productivetrees:cinnamon_sapling"
+    ],
+    "resultItems": "croptopia:cinnamon_sapling"
+  },
+  {
+    "matchItems": [
       "farmersrespite:coffee",
       "farmersrespite:long_coffee",
       "farmersrespite:strong_coffee",
@@ -201,6 +251,7 @@
       "corn_delight:corn",
       "crockpot:corn",
       "culturaldelights:corn_cob",
+      "extradelight:corn_on_cob",
       "farm_and_charm:corn",
       "flavor_immersed_daily:corn",
       "manors_bounty:corn",
@@ -214,7 +265,14 @@
   {
     "matchItems": [
       "bountifulfares:maize_seeds",
+      "braziliandelight:kernels",
+      "corn_delight:corn_seeds",
       "crockpot:corn_seeds",
+      "culturaldelights:corn_kernels",
+      "extradelight:corn_seeds",
+      "farm_and_charm:kernels",
+      "flavor_immersed_daily:corn_0",
+      "manors_bounty:corn_seed",
       "pamhc2crops:cornseeditem",
       "simplefarming:corn_seeds"
     ],
@@ -260,18 +318,6 @@
   },
   {
     "matchItems": [
-      "create:dough",
-      "farm_and_charm:dough",
-      "farmersdelight:wheat_dough",
-      "flavor_immersed_daily:dough",
-      "pamhc2foodcore:doughitem",
-      "pasterdream:dough",
-      "sakura:dough"
-    ],
-    "resultItems": "croptopia:dough"
-  },
-  {
-    "matchItems": [
       "manors_bounty:dragon_fruit"
     ],
     "resultItems": "croptopia:dragonfruit"
@@ -284,7 +330,8 @@
       "minecolonies:eggplant",
       "pamhc2crops:eggplantitem",
       "sakura:eggplant",
-      "simplefarming:eggplant"
+      "simplefarming:eggplant",
+      "thermal:eggplant"
     ],
     "resultItems": "croptopia:eggplant"
   },
@@ -300,6 +347,24 @@
       "simplefarming:eggplant_seeds"
     ],
     "resultItems": "croptopia:eggplant_seed"
+  },
+  {
+    "matchItems": [
+      "fruitsdelight:fig",
+      "manors_bounty:fig",
+      "pamhc2trees:figitem",
+      "pasterdream:fig",
+      "productivetrees:fig"
+    ],
+    "resultItems": "croptopia:fig"
+  },
+  {
+    "matchItems": [
+      "fruitsdelight:fig_sapling",
+      "pamhc2trees:fig_sapling",
+      "productivetrees:sycamore_fig_sapling"
+    ],
+    "resultItems": "croptopia:fig_sapling"
   },
   {
     "matchItems": [
@@ -327,18 +392,14 @@
   },
   {
     "matchItems": [
-      "crockpot:garlic_seeds"
-    ],
-    "resultItems": "croptopia:garlic_seed"
-  },
-  {
-    "matchItems": [
+      "crockpot:garlic_seeds",
       "pamhc2crops:garlicseeditem"
     ],
     "resultItems": "croptopia:garlic_seed"
   },
   {
     "matchItems": [
+      "extradelight:ginger",
       "flavor_immersed_daily:ginger",
       "pamhc2crops:gingeritem",
       "simplefarming:ginger",
@@ -431,14 +492,17 @@
   {
     "matchItems": [
       "farm_and_charm:lettuce",
-      "kaleidoscope_cookery:lettuce"
+      "kaleidoscope_cookery:lettuce",
+      "pamhc2crops:lettuceitem",
+      "simplefarming:lettuce"
     ],
     "resultItems": "croptopia:lettuce"
   },
   {
     "matchItems": [
       "farm_and_charm:lettuce_seeds",
-      "kaleidoscope_cookery:lettuce_seed"
+      "kaleidoscope_cookery:lettuce_seed",
+      "simplefarming:lettuce_seeds"
     ],
     "resultItems": "croptopia:lettuce_seed"
   },
@@ -635,16 +699,6 @@
   },
   {
     "matchItems": [
-      "pamhc2crops:riceitem",
-      "sakura:rice",
-      "simplefarming:rice",
-      "teastory:rice",
-      "thermal:rice"
-    ],
-    "resultItems": "croptopia:rice"
-  },
-  {
-    "matchItems": [
       "pamhc2crops:riceseeditem",
       "sakura:rice_seeds",
       "simplefarming:rice_seeds"
@@ -739,6 +793,18 @@
   },
   {
     "matchItems": [
+      "bountifulfares:tea_leaves",
+      "delightful:green_tea_leaf",
+      "farmersrespite:green_tea_leaves",
+      "herbalbrews:green_tea_leaf",
+      "pamhc2crops:tealeafitem",
+      "youkaishomecoming:green_tea_leaves",
+      "youkaishomecoming:tea_leaves"
+    ],
+    "resultItems": "croptopia:tea_leaves"
+  },
+  {
+    "matchItems": [
       "pamhc2crops:turnipitem",
       "simplefarming:turnip"
     ],
@@ -827,6 +893,19 @@
   },
   {
     "matchItems": [
+      "croptopia:rice",
+      "kaleidoscope_cookery:rice",
+      "minecolonies:rice",
+      "pamhc2crops:riceitem",
+      "sakura:rice",
+      "simplefarming:rice",
+      "teastory:rice",
+      "thermal:rice"
+    ],
+    "resultItems": "farmersdelight:rice"
+  },
+  {
+    "matchItems": [
       "crockpot:tomato",
       "croptopia:tomato",
       "farm_and_charm:tomato",
@@ -858,6 +937,18 @@
       "thermal:tomato_seeds"
     ],
     "resultItems": "farmersdelight:tomato_seeds"
+  },
+  {
+    "matchItems": [
+      "create:dough",
+      "croptopia:dough",
+      "farm_and_charm:dough",
+      "flavor_immersed_daily:dough",
+      "pamhc2foodcore:doughitem",
+      "pasterdream:dough",
+      "sakura:dough"
+    ],
+    "resultItems": "farmersdelight:wheat_dough"
   },
   {
     "matchItems": [
