@@ -113,6 +113,7 @@
   },
   {
     "matchItems": [
+      "bakeries:butter_cube",
       "braziliandelight:butter",
       "extradelight:butter",
       "farm_and_charm:butter",
@@ -380,6 +381,7 @@
   {
     "matchItems": [
       "argentinas_delight:harinadetrigo",
+      "bakeries:flour",
       "bountifulfares:flour",
       "farm_and_charm:flour",
       "flavor_immersed_daily:wheatflour",
@@ -562,6 +564,7 @@
   },
   {
     "matchItems": [
+      "bakeries:olive",
       "manors_bounty:olive_fruit",
       "pamhc2trees:oliveitem",
       "pizzacraft:olive",
@@ -751,6 +754,7 @@
   },
   {
     "matchItems": [
+      "bakeries:salt",
       "braziliandelight:salt",
       "ltc2:salt",
       "pamhc2foodcore:saltitem",
@@ -904,6 +908,26 @@
   },
   {
     "matchItems": [
+      "additionaladditions:fried_egg",
+      "bakeries:whole_egg",
+      "crockpot:cooked_egg",
+      "croptopia:sunny_side_eggs",
+      "extradelight:boiled_egg",
+      "farmersplus:boiled_egg",
+      "flavor_immersed_daily:boilegg",
+      "flavor_immersed_daily:shelledboiledegg",
+      "kaleidoscope_cookery:fried_egg",
+      "mynethersdelight:boiled_egg",
+      "pamhc2foodcore:boiledeggitem",
+      "pamhc2foodcore:friedeggitem",
+      "pasterdream:fried_egg",
+      "simplefarming:cooked_egg",
+      "vanillacookbook:cooked_egg"
+    ],
+    "resultItems": "farmersdelight:fried_egg"
+  },
+  {
+    "matchItems": [
       "croptopia:melon_juice",
       "farmersrespite:strong_melon_juice",
       "unusual_delight:melon_juice",
@@ -913,6 +937,7 @@
   },
   {
     "matchItems": [
+      "bakeries:bottle_milk",
       "crockpot:milk_bottle",
       "croptopia:milk_bottle",
       "kitchenkarrot:milk",
@@ -952,6 +977,7 @@
   },
   {
     "matchItems": [
+      "bakeries:tomato",
       "crockpot:tomato",
       "croptopia:tomato",
       "farm_and_charm:tomato",
