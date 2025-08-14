@@ -2,13 +2,29 @@
   {
     "matchItems": [
       "flavor_immersed_daily:apricot",
-      "simplefarming:apricot"
+      "pamhc2trees:apricotitem",
+      "productivetrees:apricot",
+      "simplefarming:apricot",
+      "tofucraft:apricot"
     ],
     "resultItems": "croptopia:apricot"
   },
   {
     "matchItems": [
-      "simplefarming:apricot_sapling"
+      "pamhc2trees:apricotitem",
+      "productivetrees:apricot",
+      "tofucraft:apricot"
+    ],
+    "resultItems": "croptopia:apricot"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:apricotsapling",
+      "pamhc2trees:apricot_sapling",
+      "productivetrees:apricot_sapling",
+      "simplefarming:apricot_sapling",
+      "tofucraft:apricotseed",
+      "tofucraft:sapling_apricot"
     ],
     "resultItems": "croptopia:apricot_sapling"
   },
@@ -197,7 +213,8 @@
       "pamhc2crops:chilipepperitem",
       "pizzacraft:pepper",
       "simplefarming:pepper",
-      "teastory:chili"
+      "teastory:chili",
+      "tofucraft:chili"
     ],
     "resultItems": "croptopia:chile_pepper"
   },
@@ -209,7 +226,8 @@
       "pamhc2crops:chilipepperseeditem",
       "pizzacraft:pepper_seeds",
       "simplefarming:pepper_seeds",
-      "teastory:chili_seeds"
+      "teastory:chili_seeds",
+      "tofucraft:seeds_chili"
     ],
     "resultItems": "croptopia:chile_pepper_seed"
   },
@@ -254,15 +272,20 @@
       "bakeries:coffee_bean",
       "braziliandelight:coffee_beans",
       "farmersrespite:coffee_beans",
+      "flavor_immersed_daily:drycoffeebean",
+      "herbalbrews:coffee_beans",
+      "kawaiidishes:roasted_coffee_beans",
       "pamhc2crops:coffeebeanitem",
       "productivetrees:coffee_bean",
-      "rusticdelight:roasted_coffee_beans"
+      "rusticdelight:roasted_coffee_beans",
+      "youkaishomecoming:coffee_beans"
     ],
     "resultItems": "croptopia:coffee_beans"
   },
   {
     "matchItems": [
-      "braziliandelight:coffee_seeds"
+      "braziliandelight:coffee_seeds",
+      "pamhc2crops:coffeebeanseeditem"
     ],
     "resultItems": "croptopia:coffee_seed"
   },
@@ -498,7 +521,9 @@
   },
   {
     "matchItems": [
-      "bountifulfares:leek"
+      "bountifulfares:leek",
+      "pamhc2crops:leekitem",
+      "tofucraft:leek"
     ],
     "resultItems": "croptopia:leek"
   },
@@ -769,7 +794,8 @@
     "matchItems": [
       "pamhc2crops:riceseeditem",
       "sakura:rice_seeds",
-      "simplefarming:rice_seeds"
+      "simplefarming:rice_seeds",
+      "tofucraft:seeds_rice"
     ],
     "resultItems": "croptopia:rice_seed"
   },
@@ -793,6 +819,7 @@
       "pamhc2foodcore:saltitem",
       "pasterdream:salt",
       "sakura:salt",
+      "tofucraft:salt",
       "unusual_delight:salt",
       "vintagedelight:salt_dust"
     ],
@@ -800,10 +827,17 @@
   },
   {
     "matchItems": [
+      "tofucraft:soymilk"
+    ],
+    "resultItems": "croptopia:soy_milk"
+  },
+  {
+    "matchItems": [
       "minecolonies:soybean",
       "sakura:soybean",
       "simplefarming:soybean",
       "sushigocrafting:soy_bean",
+      "tofucraft:soybean",
       "youkaisfeasts:soybean",
       "youkaishomecoming:soybean"
     ],
@@ -884,6 +918,18 @@
       "youkaishomecoming:tea_leaves"
     ],
     "resultItems": "croptopia:tea_leaves"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:picedtoufu",
+      "flavor_immersed_daily:toufu",
+      "minecolonies:tofu",
+      "sakura:tofu",
+      "simplefarming:tofu",
+      "tofucraft:tofumomen",
+      "youkaishomecoming:tofu"
+    ],
+    "resultItems": "croptopia:tofu"
   },
   {
     "matchItems": [
@@ -1034,7 +1080,8 @@
       "sakura:rice",
       "simplefarming:rice",
       "teastory:rice",
-      "thermal:rice"
+      "thermal:rice",
+      "tofucraft:rice"
     ],
     "resultItems": "farmersdelight:rice"
   },
