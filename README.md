@@ -1,12 +1,26 @@
-# 农业类 mod 合并规则
+# OEI Food Unification - 农业类 Mod 合并规则
 
 [![GitHub Stars](https://img.shields.io/github/stars/chenskiro/OEIFood?style=flat-square)](https://github.com/chenskiro/OEIFood/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/chenskiro/OEIFood?style=flat-square)](https://github.com/chenskiro/OEIFood/issues)
 [![License](https://img.shields.io/github/license/chenskiro/OEIFood?style=flat-square)](https://github.com/chenskiro/OEIFood/blob/main/LICENSE)
 
-本项目提供了一套 [One Enough Item (OEI)](https://github.com/Tower-of-Sighs/OneEnoughItem) 的规则模板，旨在统一来自不同 Minecraft 农业、烹饪类 Mod 的重复物品（如多种番茄、洋葱、牛奶等）
+> 解决农业模组物品重复问题 | 基于OEI的统一解决方案
 
-这并非一个普适性的“即插即用”方案，而是一个强大的**起点**。本项目已预先编写了海量的整合规则，旨在**大幅减少**您从零开始手动配置所需的庞大工作量。您只需下载这份预设，并根据您整合包中实际安装的 Mod 进行简单的**审查和修改**，即可快速实现理想的物品统一效果。
+本项目提供了一套 [One Enough Item (OEI)](https://github.com/Tower-of-Sighs/OneEnoughItem) 的规则模板，旨在合并来自不同 Minecraft 农业、烹饪类 Mod 的重复物品（如多种番茄、洋葱、牛奶等）
+
+> [!IMPORTANT]
+> **请注意：本项目不是一个独立的 Mod！**
+>
+> 这是一个为 **[One Enough Item (OEI)](https://github.com/Tower-of-Sighs/OneEnoughItem)** Mod 提供支持的 **规则配置文件**。它本身无法独立运行。
+>
+> 你可以通过 **数据包 (Data Pack)** 或 **KubeJS** 两种方式来使用它。详细方法请参阅下方的 [安装与使用](#-安装与使用) 章节。
+>
+> **无论选择哪种方式，都请勿将其放入 `mods` 文件夹！**
+
+> [!NOTE]
+> 致整合包作者：若您在整合包中使用了本规则，请注明仓库地址以支持开源社区，感谢！
+
+这并非一个普适性的“即插即用”方案，而是一个强大的**起点**。本项目已预先编写了大量的整合规则，旨在**大幅减少**您从零开始手动配置所需的庞大工作量。您只需下载这份预设，并根据您整合包中实际安装的 Mod 进行简单的**审查和修改**，即可快速实现理想的物品统一效果。
 
 ## ⚙️ 整合原则
  
@@ -31,8 +45,26 @@
 > [!WARNING]
 > **为防止物品凭空消失，请务必在使用本规则前，完成以下检查与调整：**
 >
-> 本规则包无法自动检测您安装了哪些 Mod。如果一条规则将物品 A 统一到物品 B，但您并未安装提供物品 B 的 Mod，**物品 A 就会在游戏中消失**。
+> **请在使用前，确保您已安装规则所指向的目标 Mod，或者已根据您的整合包内容手动修改了规则文件。**
+>
+> 本规则包无法自动检测已安装的 Mod（因为它只是一个json文件！）。如果一条规则将物品 A 统一到物品 B，但您并未安装提供物品 B 的 Mod，**物品 A 就会在游戏中消失**。
 > (例如：规则将所有番茄统一到“农夫乐事”的番茄，但你没装“农夫乐事”，所有其他番茄都会消失)
+
+> [!WARNING]
+> **重要：关于衍生物品的获取问题**
+>
+> OEI 的物品替换机制能很好地处理 **合成配方** 的兼容问题，但请注意，它 **无法改变一个 Mod 本身的逻辑**，尤其是通过特定方块交互（如作物收获）才能获得的物品。
+>
+> 举一个最典型的例子：
+> * **Mod A** 的作物收获时掉落：`番茄`
+> * **Mod B** 的作物收获时掉落：`番茄` 和 `藤蔓`
+>
+> 当本规则将所有“番茄种子”统一为 Mod A 的版本后，相关的产物、种植逻辑也会倾向于 Mod A。你可能因此只能种出 Mod A 的作物。
+>
+> 结果是，虽然你仍然能获得统一后的“番茄”，但由于你无法再种植和收获 **Mod B 的特定作物**，那个额外的掉落物 `藤蔓` **就再也无法通过原始的种植方式获得了**。
+>
+> **解决方案：**
+> 作为整合包的作者，您需要预见到这类问题。如果某个重要的衍生物品因此变得无法获取，请务必 **手动为其添加新的获取方式**（例如，通过数据包或 `KubeJS` 为其增加新的合成配方，或者修改战利品表）。
 
 ### 如何正确使用本模板？
 
@@ -61,27 +93,40 @@
 
 ## 🔧 安装与使用
 
-1. **前置要求**: 请确保你已经安装了 [**One Enough Item (OEI)**](https://github.com/Tower-of-Sighs/OneEnoughItem) 这个 Mod。
+首先，请确保你已经安装了核心依赖 Mod：[**One Enough Item (OEI)**](https://github.com/Tower-of-Sighs/OneEnoughItem)。
 
-2. **下载规则文件 (二选一)**:
+接下来，根据你的整合包情况和个人偏好，从以下两种方法中 **选择一种** 进行安装：
 
-   - **直接下载**: 点击本页面右上角的绿色 `Code` 按钮，然后选择 `Download ZIP` 下载整个项目。
-   - **使用 Git**: 如果你熟悉 Git，可以克隆本仓库：
-     ```bash
-     git clone https://github.com/chenskiro/OEIFood.git
-     ```
+<details>
+<summary><strong>方法一：作为数据包 (Data Pack) 加载（推荐新手）</strong></summary>
 
-3. **安装数据包**:
+这是最简单直接的方法，无需额外依赖。
 
-- 进入你的 Minecraft 存档文件夹 (位于 .minecraft/saves/<你的存档名称>)。
-- 找到或创建一个名为 `datapacks` 的文件夹。
-- 将文件放入 `datapacks` 文件夹中。
-- 最终的规则文件路径应类似于: `.../saves/<存档名称>/datapacks/<规则包文件夹>/data/oei/replacements/food_unification.json`。
+1.  **下载规则包**:
+    * **推荐**: 前往本项目的 [**Releases 页面**](https://github.com/chenskiro/OEIFood/releases) 下载最新版本的 `zip` 压缩包。这是为普通用户准备的稳定版本。
+    * **备选**: 点击本页面右上角的绿色 `Code` 按钮，然后选择 `Download ZIP`，可以获取到包含最新修改的开发版本。
 
-4. **加载数据包**:
+2.  **安装数据包**:
+   > 💡 提示：使用前备份世界可避免意外损失
+    * 进入你的 Minecraft 存档文件夹 (位于 `.minecraft/saves/<你的存档名称>`)。
+    * 找到或创建一个名为 `datapacks` 的文件夹。
+    * 将下载的 `zip` 包解压后，把里面的文件夹放入 `datapacks` 中。
+    * 最终路径应类似于: `.../saves/<存档名称>/datapacks/<规则包文件夹>/data/oei/replacements/food_unification.json`。
 
-- 对于现有世界: 进入游戏，执行命令 `/reload` 即可。
-- 对于新世界: 在创建世界的“数据包”选项中，选择并启用本规则包。
+4.  **加载数据包**:
+    * 对于现有世界: 进入游戏，执行命令 `/reload` 即可。
+    * 对于新世界: 在创建世界的“数据包”选项中，选择并启用本规则包。
+
+</details>
+
+<details>
+<summary><strong>方法二：通过 KubeJS 整合（适合进阶用户）</strong></summary>
+
+如果你熟悉 KubeJS，可以更灵活地管理本规则。将核心规则文件 `food_unification.json` 放置在你的 KubeJS 目录中。
+
+具体的加载方式，请参阅 **OEI 官方文档** 中关于 KubeJS 联动的说明，以获取最准确的 API 用法。
+
+</details>
 
 > OEI 提供了便捷的可视化编辑界面，默认快捷键 `Ctrl + R`，你可以用它来查看或临时修改规则。更多高级用法请参阅 OEI [官方文档](https://doc.sighs.cc/docs/OneEnoughItem/intro)
 
@@ -122,7 +167,7 @@
 </details>
  
 <details>
-<summary>🍎 潘马斯农场 (Pam's HarvestCraft 2) 生态</summary>
+<summary>🍎 潘马斯农场2 (Pam's HarvestCraft 2) 生态</summary>
  
 | 模组名称 (Mod Name) & ID |
 | :--- |
