@@ -115,6 +115,7 @@
     "matchItems": [
       "bakeries:butter_cube",
       "braziliandelight:butter",
+      "craziness_awakened:butter",
       "extradelight:butter",
       "farm_and_charm:butter",
       "flavor_immersed_daily:butter",
@@ -164,6 +165,7 @@
   {
     "matchItems": [
       "argentinas_delight:queso",
+      "craziness_awakened:cheese",
       "extradelight:cheese",
       "meadow:piece_of_cheese",
       "pamhc2foodcore:cheeseitem",
@@ -178,6 +180,7 @@
   },
   {
     "matchItems": [
+      "craziness_awakened:cherry",
       "flavor_immersed_daily:cherry",
       "seeddelight:cherry",
       "simplefarming:cherries",
@@ -269,6 +272,7 @@
       "bountifulfares:maize",
       "braziliandelight:corn",
       "corn_delight:corn",
+      "craziness_awakened:corn",
       "crockpot:corn",
       "culturaldelights:corn_cob",
       "extradelight:corn_on_cob",
@@ -515,6 +519,7 @@
   },
   {
     "matchItems": [
+      "craziness_awakened:leuce",
       "farm_and_charm:lettuce",
       "kaleidoscope_cookery:lettuce",
       "pamhc2crops:lettuceitem",
@@ -612,6 +617,7 @@
   },
   {
     "matchItems": [
+      "craziness_awakened:peach",
       "fruitsdelight:peach",
       "manors_bounty:peach",
       "productivetrees:peach"
@@ -669,6 +675,7 @@
   },
   {
     "matchItems": [
+      "craziness_awakened:pineapple",
       "flavor_immersed_daily:pineapple",
       "fruitsdelight:pineapple",
       "jellyfishing:pineapple",
@@ -693,6 +700,21 @@
       "simplefarming:plum"
     ],
     "resultItems": "croptopia:plum"
+  },
+  {
+    "matchItems": [
+      "bountifulfares:popped_maize",
+      "corn_delight:popcorn",
+      "craziness_awakened:pop_corn",
+      "crockpot:popcorn",
+      "culturaldelights:popcorn",
+      "extradelight:popcorn",
+      "flavor_immersed_daily:popcorn",
+      "manors_bounty:popcorn",
+      "pamhc2foodextended:popcornitem",
+      "simplefarming:popcorn"
+    ],
+    "resultItems": "croptopia:popcorn"
   },
   {
     "matchItems": [
@@ -818,6 +840,7 @@
   },
   {
     "matchItems": [
+      "craziness_awakened:strawberries",
       "farm_and_charm:strawberry",
       "flavor_immersed_daily:strawberry",
       "manors_bounty:strawberry",
@@ -901,6 +924,15 @@
   },
   {
     "matchItems": [
+      "craziness_awakened:bacon",
+      "croptopia:bacon",
+      "farm_and_charm:bacon",
+      "simplefarming:raw_bacon"
+    ],
+    "resultItems": "farmersdelight:bacon"
+  },
+  {
+    "matchItems": [
       "croptopia:cabbage",
       "flavor_immersed_daily:cabbage",
       "minecolonies:cabbage",
@@ -916,6 +948,25 @@
       "sakura:cabbage_seeds"
     ],
     "resultItems": "farmersdelight:cabbage_seeds"
+  },
+  {
+    "matchItems": [
+      "craziness_awakened:cooked_bacon",
+      "croptopia:cooked_bacon",
+      "simplefarming:cooked_bacon"
+    ],
+    "resultItems": "farmersdelight:cooked_bacon"
+  },
+  {
+    "matchItems": [
+      "croptopia:steamed_rice",
+      "flavor_immersed_daily:rice",
+      "kaleidoscope_cookery:cooked_rice",
+      "sakura:rice_cooked",
+      "simplefarming:rice_bowl",
+      "teastory:rice_bowl"
+    ],
+    "resultItems": "farmersdelight:cooked_rice"
   },
   {
     "matchItems": [
@@ -990,6 +1041,7 @@
   {
     "matchItems": [
       "bakeries:tomato",
+      "craziness_awakened:tomato",
       "crockpot:tomato",
       "croptopia:tomato",
       "farm_and_charm:tomato",
