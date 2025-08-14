@@ -99,13 +99,15 @@
   },
   {
     "matchItems": [
-      "pamhc2crops:broccoliitem"
+      "pamhc2crops:broccoliitem",
+      "pizzacraft:broccoli"
     ],
     "resultItems": "croptopia:broccoli"
   },
   {
     "matchItems": [
-      "pamhc2crops:broccoliseeditem"
+      "pamhc2crops:broccoliseeditem",
+      "pizzacraft:broccoli_seeds"
     ],
     "resultItems": "croptopia:broccoli_seed"
   },
@@ -164,6 +166,7 @@
       "extradelight:cheese",
       "meadow:piece_of_cheese",
       "pamhc2foodcore:cheeseitem",
+      "pizzacraft:cheese",
       "sakura:cheese",
       "simplefarming:cheese_slice",
       "trailandtales_delight:cheese_slice",
@@ -188,6 +191,7 @@
       "ltc2:pepper_red",
       "muffins_thaidelight:pepper",
       "pamhc2crops:chilipepperitem",
+      "pizzacraft:pepper",
       "simplefarming:pepper",
       "teastory:chili"
     ],
@@ -199,6 +203,7 @@
       "kaleidoscope_cookery:chili_seed",
       "muffins_thaidelight:pepper_seeds",
       "pamhc2crops:chilipepperseeditem",
+      "pizzacraft:pepper_seeds",
       "simplefarming:pepper_seeds",
       "teastory:chili_seeds"
     ],
@@ -260,6 +265,7 @@
       "manors_bounty:corn",
       "minecolonies:corn",
       "pamhc2crops:cornitem",
+      "pizzacraft:corn",
       "simplefarming:corn",
       "thermal:corn"
     ],
@@ -299,6 +305,7 @@
     "matchItems": [
       "culturaldelights:cucumber",
       "flavor_immersed_daily:cucumber",
+      "pizzacraft:cucumber",
       "simplefarming:cucumber",
       "teastory:cucumber",
       "vintagedelight:cucumber",
@@ -312,6 +319,7 @@
       "culturaldelights:cucumber_seeds",
       "flavor_immersed_daily:cucumber_seed",
       "pamhc2crops:cucumberseeditem",
+      "pizzacraft:cucumber_seeds",
       "simplefarming:cucumber_seeds",
       "sushigocrafting:cucumber_seeds",
       "vintagedelight:cucumber_seeds",
@@ -556,6 +564,7 @@
     "matchItems": [
       "manors_bounty:olive_fruit",
       "pamhc2trees:oliveitem",
+      "pizzacraft:olive",
       "productivetrees:olive",
       "simplefarming:olives"
     ],
@@ -646,11 +655,21 @@
   },
   {
     "matchItems": [
+      "flavor_immersed_daily:pineapple",
       "fruitsdelight:pineapple",
       "jellyfishing:pineapple",
-      "manors_bounty:pineapple"
+      "manors_bounty:pineapple",
+      "pizzacraft:pineapple"
     ],
     "resultItems": "croptopia:pineapple"
+  },
+  {
+    "matchItems": [
+      "jellyfishing:pineapple_seeds",
+      "pamhc2crops:pineappleseeditem",
+      "pizzacraft:pineapple_seeds"
+    ],
+    "resultItems": "croptopia:pineapple_seed"
   },
   {
     "matchItems": [
@@ -910,6 +929,7 @@
       "flavor_immersed_daily:onion",
       "minecolonies:onion",
       "pamhc2crops:onionitem",
+      "pizzacraft:onion",
       "sakura:onion",
       "simplefarming:onion",
       "thermal:onion"
@@ -922,6 +942,7 @@
       "kaleidoscope_cookery:rice",
       "minecolonies:rice",
       "pamhc2crops:riceitem",
+      "pizzacraft:onion",
       "sakura:rice",
       "simplefarming:rice",
       "teastory:rice",
@@ -938,6 +959,7 @@
       "kaleidoscope_cookery:tomato",
       "minecolonies:tomato",
       "pamhc2crops:tomatoitem",
+      "pizzacraft:tomato",
       "sakura:tomato",
       "simplefarming:tomato",
       "thermal:tomato"
@@ -957,6 +979,7 @@
       "farm_and_charm:tomato_seeds",
       "flavor_immersed_daily:tomatoseed",
       "kaleidoscope_cookery:tomato_seed",
+      "pizzacraft:tomato_seeds",
       "sakura:tomato_seeds",
       "simplefarming:tomato_seeds",
       "thermal:tomato_seeds"
@@ -971,6 +994,7 @@
       "flavor_immersed_daily:dough",
       "pamhc2foodcore:doughitem",
       "pasterdream:dough",
+      "pizzacraft:dough",
       "sakura:dough"
     ],
     "resultItems": "farmersdelight:wheat_dough"
