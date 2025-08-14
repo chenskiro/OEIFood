@@ -197,6 +197,9 @@
     "matchItems": [
       "crockpot:pepper_seeds",
       "kaleidoscope_cookery:chili_seed",
+      "muffins_thaidelight:pepper_seeds",
+      "pamhc2crops:chilipepperseeditem",
+      "simplefarming:pepper_seeds",
       "teastory:chili_seeds"
     ],
     "resultItems": "croptopia:chile_pepper_seed"
@@ -674,6 +677,16 @@
   },
   {
     "matchItems": [
+      "manors_bounty:raisins",
+      "pamhc2foodextended:raisinsitem",
+      "simplefarming:raisins",
+      "teastory:raisins",
+      "youkaishomecoming:raisin"
+    ],
+    "resultItems": "croptopia:raisins"
+  },
+  {
+    "matchItems": [
       "pamhc2crops:raspberryitem",
       "simplefarming:raspberries"
     ],
@@ -716,6 +729,18 @@
       "pamhc2crops:rutabagaseeditem"
     ],
     "resultItems": "croptopia:rutabaga_seed"
+  },
+  {
+    "matchItems": [
+      "braziliandelight:salt",
+      "ltc2:salt",
+      "pamhc2foodcore:saltitem",
+      "pasterdream:salt",
+      "sakura:salt",
+      "unusual_delight:salt",
+      "vintagedelight:salt_dust"
+    ],
+    "resultItems": "croptopia:salt"
   },
   {
     "matchItems": [
@@ -1021,11 +1046,5 @@
       "productivetrees:pomegranate"
     ],
     "resultItems": "pamhc2trees:pomegranateitem"
-  },
-    {
-    "matchItems": [
-      "test"
-    ],
-    "resultItems": "test"
   }
 ]
