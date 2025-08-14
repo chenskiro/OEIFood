@@ -248,6 +248,17 @@
   },
   {
     "matchItems": [
+      "bakeries:coffee_bean",
+      "braziliandelight:coffee_beans",
+      "farmersrespite:coffee_beans",
+      "pamhc2crops:coffeebeanitem",
+      "productivetrees:coffee_bean",
+      "rusticdelight:roasted_coffee_beans"
+    ],
+    "resultItems": "croptopia:coffee_beans"
+  },
+  {
+    "matchItems": [
       "braziliandelight:coffee_seeds"
     ],
     "resultItems": "croptopia:coffee_seed"
@@ -915,6 +926,7 @@
       "extradelight:boiled_egg",
       "farmersplus:boiled_egg",
       "flavor_immersed_daily:boilegg",
+      "flavor_immersed_daily:omelette",
       "flavor_immersed_daily:shelledboiledegg",
       "kaleidoscope_cookery:fried_egg",
       "mynethersdelight:boiled_egg",
@@ -922,8 +934,7 @@
       "pamhc2foodcore:friedeggitem",
       "pasterdream:fried_egg",
       "simplefarming:cooked_egg",
-      "vanillacookbook:cooked_egg",
-      "flavor_immersed_daily:omelette"
+      "vanillacookbook:cooked_egg"
     ],
     "resultItems": "farmersdelight:fried_egg"
   },
@@ -1097,17 +1108,5 @@
       "productivetrees:pomegranate"
     ],
     "resultItems": "pamhc2trees:pomegranateitem"
-  },
-  {
-    "matchItems": [
-      "braziliandelight:coffee_beans",
-      "farmersrespite:coffee_beans",
-      "rusticdelight:roasted_coffee_beans",
-      "pamhc2crops:coffeebeanitem",
-      "productivetrees:coffee_bean",
-      "productivetrees:coffee_bean",
-      "bakeries:coffee_bean"
-    ],
-    "resultItems": "croptopia:coffee_beans"
   }
 ]
