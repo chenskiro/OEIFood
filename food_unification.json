@@ -1073,6 +1073,7 @@
       "croptopia:cabbage",
       "flavor_immersed_daily:cabbage",
       "minecolonies:cabbage",
+      "pamhc2crops:cabbageitem",
       "sakura:cabbage"
     ],
     "resultItems": "farmersdelight:cabbage"
