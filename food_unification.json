@@ -57,6 +57,7 @@
   {
     "matchItems": [
       "alexsmobs:banana",
+      "chang_sheng_jue:banana",
       "manors_bounty:banana",
       "neapolitan:banana",
       "productivetrees:banana",
@@ -66,7 +67,10 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:banana_sapling",
       "flavor_immersed_daily:bananasapling",
+      "pamhc2trees:banana_sapling",
+      "productivetrees:banana_sapling",
       "simplefarming:banana_sapling"
     ],
     "resultItems": "croptopia:banana_sapling"
@@ -74,6 +78,7 @@
   {
     "matchItems": [
       "biomesoplenty:barley",
+      "chang_sheng_jue:hordeum",
       "farm_and_charm:barley",
       "pamhc2crops:barleyitem",
       "simplefarming:barley",
@@ -83,6 +88,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:hordeum_seeds",
       "farm_and_charm:barley_seeds",
       "pamhc2crops:barleyseeditem",
       "simplefarming:barley_seeds",
@@ -150,6 +156,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:cantaloupe",
       "pamhc2crops:cantaloupeitem",
       "simplefarming:cantaloupe"
     ],
@@ -157,6 +164,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:cantaloupe_seeds",
       "flavor_immersed_daily:hamimelonseed",
       "manors_bounty:hamimelon_seed",
       "pamhc2crops:cantaloupeseeditem",
@@ -177,6 +185,20 @@
       "pamhc2crops:cauliflowerseeditem"
     ],
     "resultItems": "croptopia:cauliflower_seed"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:celery",
+      "pamhc2crops:celeryitem"
+    ],
+    "resultItems": "croptopia:celery"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:celeryseed",
+      "pamhc2crops:celeryseeditem"
+    ],
+    "resultItems": "croptopia:celery_seed"
   },
   {
     "matchItems": [
@@ -294,6 +316,7 @@
       "argentinas_delight:choclo",
       "bountifulfares:maize",
       "braziliandelight:corn",
+      "chang_sheng_jue:corn",
       "corn_delight:corn",
       "craziness_awakened:corn",
       "crockpot:corn",
@@ -323,6 +346,7 @@
     "matchItems": [
       "bountifulfares:maize_seeds",
       "braziliandelight:kernels",
+      "chang_sheng_jue:corn_seeds",
       "corn_delight:corn_seeds",
       "crockpot:corn_seeds",
       "culturaldelights:corn_kernels",
@@ -383,6 +407,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:brinjal",
       "crockpot:eggplant",
       "culturaldelights:eggplant",
       "dumplings_delight:eggplant",
@@ -396,6 +421,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:brinjal_seeds",
       "crockpot:eggplant_seeds",
       "culturaldelights:eggplant_seeds",
       "dumplings_delight:eggplant_seeds",
@@ -493,6 +519,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:grape",
       "flavor_immersed_daily:grape",
       "manors_bounty:grape",
       "pamhc2crops:grapeitem",
@@ -506,6 +533,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:grape_seeds",
       "flavor_immersed_daily:grapeseed",
       "manors_bounty:grape_seed",
       "pamhc2crops:grapeseeditem",
@@ -587,6 +615,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:mango",
       "flavor_immersed_daily:mango",
       "fruitsdelight:mango",
       "manors_bounty:mango",
@@ -602,11 +631,20 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:mango_sapling",
       "flavor_immersed_daily:mangosapling",
       "fruitsdelight:mango_sapling",
+      "pamhc2trees:mango_sapling",
+      "productivetrees:mango_sapling",
       "simplefarming:mango_sapling"
     ],
     "resultItems": "croptopia:mango_sapling"
+  },
+  {
+    "matchItems": [
+      "chang_sheng_jue:capsule"
+    ],
+    "resultItems": "croptopia:mustard"
   },
   {
     "matchItems": [
@@ -676,6 +714,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:peanut",
       "flavor_immersed_daily:peanut",
       "jellyfishing:seanut",
       "pamhc2crops:peanutitem",
@@ -708,6 +747,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:pear",
       "flavor_immersed_daily:pear",
       "fruitsdelight:pear",
       "pamhc2trees:pearitem",
@@ -718,6 +758,29 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:pear_sapling",
+      "flavor_immersed_daily:pearsapling",
+      "pamhc2trees:pear_sapling",
+      "productivetrees:cultivated_pear_sapling",
+      "simplefarming:pear_sapling"
+    ],
+    "resultItems": "croptopia:pear_sapling"
+  },
+  {
+    "matchItems": [
+      "chang_sheng_jue:jalapenos",
+      "ltc2:pepper_black"
+    ],
+    "resultItems": "croptopia:pepper"
+  },
+  {
+    "matchItems": [
+      "chang_sheng_jue:jalapenos_seeds"
+    ],
+    "resultItems": "croptopia:pepper_seed"
+  },
+  {
+    "matchItems": [
       "fruitsdelight:persimmon",
       "productivetrees:persimmon"
     ],
@@ -725,6 +788,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:pineapple",
       "craziness_awakened:pineapple",
       "flavor_immersed_daily:pineapple",
       "fruitsdelight:pineapple",
@@ -736,6 +800,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:pineapple_seeds",
       "jellyfishing:pineapple_seeds",
       "pamhc2crops:pineappleseeditem",
       "pizzacraft:pineapple_seeds"
@@ -858,6 +923,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:soybean",
       "minecolonies:soybean",
       "sakura:soybean",
       "simplefarming:soybean",
@@ -1113,6 +1179,7 @@
   {
     "matchItems": [
       "bakeries:tomato",
+      "chang_sheng_jue:tomato",
       "craziness_awakened:tomato",
       "crockpot:tomato",
       "croptopia:tomato",
@@ -1136,6 +1203,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:tomato_seeds",
       "crockpot:tomato_seeds",
       "croptopia:tomato_seed",
       "farm_and_charm:tomato_seeds",
@@ -1163,6 +1231,13 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:mulberry",
+      "flavor_immersed_daily:mulberry"
+    ],
+    "resultItems": "flavor_immersed_daily:mulberry"
+  },
+  {
+    "matchItems": [
       "simplefarming:cactus_fruit"
     ],
     "resultItems": "pamhc2crops:cactusfruititem"
@@ -1182,6 +1257,7 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:cotton",
       "pasterdream:cotton",
       "rusticdelight:cotton_boll",
       "simplefarming:cotton"
@@ -1190,10 +1266,38 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:cotton_seeds",
       "rusticdelight:cotton_seeds",
       "simplefarming:cotton_seeds"
     ],
     "resultItems": "pamhc2crops:cottonseeditem"
+  },
+  {
+    "matchItems": [
+      "chang_sheng_jue:lotus_root",
+      "flavor_immersed_daily:lotusroot"
+    ],
+    "resultItems": "pamhc2crops:lotusitem"
+  },
+  {
+    "matchItems": [
+      "chang_sheng_jue:lotus_seeds"
+    ],
+    "resultItems": "pamhc2crops:lotusseeditem"
+  },
+  {
+    "matchItems": [
+      "chang_sheng_jue:gu_sui",
+      "flavor_immersed_daily:milletgrain"
+    ],
+    "resultItems": "pamhc2crops:milletitem"
+  },
+  {
+    "matchItems": [
+      "chang_sheng_jue:gu_seeds",
+      "flavor_immersed_daily:millet"
+    ],
+    "resultItems": "pamhc2crops:milletseeditem"
   },
   {
     "matchItems": [
@@ -1215,12 +1319,14 @@
   },
   {
     "matchItems": [
+      "chang_sheng_jue:sorghum",
       "simplefarming:sorghum"
     ],
     "resultItems": "pamhc2crops:sorghumitem"
   },
   {
     "matchItems": [
+      "chang_sheng_jue:sorghum_seeds",
       "simplefarming:sorghum_seeds"
     ],
     "resultItems": "pamhc2crops:sorghumseeditem"
@@ -1230,6 +1336,22 @@
       "minecolonies:cornmeal"
     ],
     "resultItems": "pamhc2foodextended:cornmealitem"
+  },
+  {
+    "matchItems": [
+      "chang_sheng_jue:lichee_sapling",
+      "flavor_immersed_daily:lycheesapling",
+      "fruitsdelight:lychee_sapling"
+    ],
+    "resultItems": "pamhc2trees:lychee_sapling"
+  },
+  {
+    "matchItems": [
+      "chang_sheng_jue:lichee",
+      "flavor_immersed_daily:lychee",
+      "fruitsdelight:lychee"
+    ],
+    "resultItems": "pamhc2trees:lycheeitem"
   },
   {
     "matchItems": [
