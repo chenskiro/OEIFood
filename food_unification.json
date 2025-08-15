@@ -312,6 +312,15 @@
   },
   {
     "matchItems": [
+      "bountifulfares:maize_bread",
+      "corn_delight:cornbread",
+      "pamhc2foodextended:cornbreaditem",
+      "simplefarming:cornbread"
+    ],
+    "resultItems": "croptopia:corn_bread"
+  },
+  {
+    "matchItems": [
       "bountifulfares:maize_seeds",
       "braziliandelight:kernels",
       "corn_delight:corn_seeds",
@@ -429,6 +438,22 @@
       "sakura:flour"
     ],
     "resultItems": "croptopia:flour"
+  },
+  {
+    "matchItems": [
+      "crabbersdelight:cooked_frog_leg",
+      "crockpot:cooked_frog_legs",
+      "extrameat:cooked_frog_leg"
+    ],
+    "resultItems": "croptopia:fried_frog_legs"
+  },
+  {
+    "matchItems": [
+      "crabbersdelight:raw_frog_leg",
+      "crockpot:frog_legs",
+      "extrameat:raw_frog_leg"
+    ],
+    "resultItems": "croptopia:frog_legs"
   },
   {
     "matchItems": [
@@ -1199,6 +1224,12 @@
       "simplefarming:sorghum_seeds"
     ],
     "resultItems": "pamhc2crops:sorghumseeditem"
+  },
+  {
+    "matchItems": [
+      "minecolonies:cornmeal"
+    ],
+    "resultItems": "pamhc2foodextended:cornmealitem"
   },
   {
     "matchItems": [
