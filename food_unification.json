@@ -203,6 +203,7 @@
   {
     "matchItems": [
       "argentinas_delight:queso",
+      "better_mcdonalds_mod:cheese",
       "craziness_awakened:cheese",
       "extradelight:cheese",
       "meadow:piece_of_cheese",
@@ -597,6 +598,7 @@
   },
   {
     "matchItems": [
+      "better_mcdonalds_mod:lettuce",
       "craziness_awakened:leuce",
       "farm_and_charm:lettuce",
       "kaleidoscope_cookery:lettuce",
@@ -607,8 +609,10 @@
   },
   {
     "matchItems": [
+      "better_mcdonalds_mod:lettuce_seeds",
       "farm_and_charm:lettuce_seeds",
       "kaleidoscope_cookery:lettuce_seed",
+      "pamhc2crops:lettuceseeditem",
       "simplefarming:lettuce_seeds"
     ],
     "resultItems": "croptopia:lettuce_seed"
@@ -904,6 +908,7 @@
   {
     "matchItems": [
       "bakeries:salt",
+      "better_mcdonalds_mod:salt",
       "braziliandelight:salt",
       "ltc2:salt",
       "pamhc2foodcore:saltitem",
@@ -1061,12 +1066,19 @@
   },
   {
     "matchItems": [
+      "better_mcdonalds_mod:raw_bacon",
       "craziness_awakened:bacon",
       "croptopia:bacon",
       "farm_and_charm:bacon",
       "simplefarming:raw_bacon"
     ],
     "resultItems": "farmersdelight:bacon"
+  },
+  {
+    "matchItems": [
+      "better_mcdonalds_mod:cooked_beef_patty"
+    ],
+    "resultItems": "farmersdelight:beef_patty"
   },
   {
     "matchItems": [
@@ -1089,6 +1101,7 @@
   },
   {
     "matchItems": [
+      "better_mcdonalds_mod:cooked_bacon",
       "craziness_awakened:cooked_bacon",
       "croptopia:cooked_bacon",
       "simplefarming:cooked_bacon"
@@ -1129,6 +1142,16 @@
   },
   {
     "matchItems": [
+      "argentinas_delight:hamburguesasanguche",
+      "better_mcdonalds_mod:hamburger",
+      "croptopia:hamburger",
+      "sakura:hamburger",
+      "simplefarming:hamburger"
+    ],
+    "resultItems": "farmersdelight:hamburger"
+  },
+  {
+    "matchItems": [
       "croptopia:melon_juice",
       "farmersrespite:strong_melon_juice",
       "unusual_delight:melon_juice",
@@ -1146,6 +1169,12 @@
       "vanillacookbook:milk_bottle"
     ],
     "resultItems": "farmersdelight:milk_bottle"
+  },
+  {
+    "matchItems": [
+      "better_mcdonalds_mod:beef_patty"
+    ],
+    "resultItems": "farmersdelight:minced_beef"
   },
   {
     "matchItems": [
@@ -1180,6 +1209,7 @@
   {
     "matchItems": [
       "bakeries:tomato",
+      "better_mcdonalds_mod:tomato",
       "chang_sheng_jue:tomato",
       "craziness_awakened:tomato",
       "crockpot:tomato",
@@ -1204,6 +1234,7 @@
   },
   {
     "matchItems": [
+      "better_mcdonalds_mod:tomato_seeds",
       "chang_sheng_jue:tomato_seeds",
       "crockpot:tomato_seeds",
       "croptopia:tomato_seed",
