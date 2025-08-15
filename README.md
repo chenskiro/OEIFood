@@ -36,6 +36,8 @@
 
 推荐同时安装 **农夫乐事 (Farmer's Delight)**、**作物盛景 (Croptopia)** 和 **潘马斯农场2 (Pam's HarvestCraft 2)** 以获得本模板预期的最佳效果。
 
+对于潘马斯农场2，可使用该纹理包进行美化：https://github.com/chenskiro/Harvestpack-Reborn
+
 > [!NOTE]
 >  **不进行合并的物品**
 > 为了保留不同 Mod 的特色，有显著差异的同类物品（如牛奶瓶和牛奶罐）不会进行合并。
