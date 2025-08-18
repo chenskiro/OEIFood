@@ -1,6 +1,17 @@
 [
   {
     "matchItems": [
+      "enhancedfarming:apple_sapling",
+      "flavor_immersed_daily:applesapling",
+      "fruitsdelight:apple_sapling",
+      "pamhc2trees:apple_sapling",
+      "simplefarming:apple_sapling",
+      "vinery:apple_tree_sapling"
+    ],
+    "resultItems": "croptopia:apple_sapling"
+  },
+  {
+    "matchItems": [
       "flavor_immersed_daily:apricot",
       "pamhc2trees:apricotitem",
       "productivetrees:apricot",
@@ -56,8 +67,26 @@
   },
   {
     "matchItems": [
+      "culturaldelights:avocado",
+      "enhancedfarming:avocado",
+      "manors_bounty:avocado",
+      "pamhc2trees:avocadoitem"
+    ],
+    "resultItems": "croptopia:avocado"
+  },
+  {
+    "matchItems": [
+      "culturaldelights:avocado_sapling",
+      "enhancedfarming:avocado_sapling",
+      "pamhc2trees:avocado_sapling"
+    ],
+    "resultItems": "croptopia:avocado_sapling"
+  },
+  {
+    "matchItems": [
       "alexsmobs:banana",
       "chang_sheng_jue:banana",
+      "enhancedfarming:banana",
       "manors_bounty:banana",
       "neapolitan:banana",
       "productivetrees:banana",
@@ -68,6 +97,7 @@
   {
     "matchItems": [
       "chang_sheng_jue:banana_sapling",
+      "enhancedfarming:banana_sapling",
       "flavor_immersed_daily:bananasapling",
       "pamhc2trees:banana_sapling",
       "productivetrees:banana_sapling",
@@ -204,13 +234,18 @@
     "matchItems": [
       "argentinas_delight:queso",
       "better_mcdonalds_mod:cheese",
+      "ce_foodstuffs:cheese",
+      "cozy:cheese",
       "craziness_awakened:cheese",
+      "divinerpg:cheese",
+      "enhancedfarming:cheese",
       "extradelight:cheese",
       "meadow:piece_of_cheese",
       "pamhc2foodcore:cheeseitem",
       "pizzacraft:cheese",
       "sakura:cheese",
       "simplefarming:cheese_slice",
+      "tconstruct:cheese_ingot",
       "trailandtales_delight:cheese_slice",
       "vanillacookbook:cheese",
       "vintagedelight:cheese_slice"
@@ -219,13 +254,32 @@
   },
   {
     "matchItems": [
+      "delightful:cheeseburger",
+      "enhancedfarming:cheeseburger",
+      "extradelight:cheeseburger",
+      "vintagedelight:cheese_burger"
+    ],
+    "resultItems": "croptopia:cheeseburger"
+  },
+  {
+    "matchItems": [
       "craziness_awakened:cherry",
+      "enhancedfarming:cherry",
       "flavor_immersed_daily:cherry",
       "seeddelight:cherry",
       "simplefarming:cherries",
       "vinery:cherry"
     ],
     "resultItems": "croptopia:cherry"
+  },
+  {
+    "matchItems": [
+      "enhancedfarming:cherry_sapling",
+      "flavor_immersed_daily:cherrysapling",
+      "pamhc2trees:cherry_sapling",
+      "simplefarming:cherry_sapling"
+    ],
+    "resultItems": "croptopia:cherry_sapling"
   },
   {
     "matchItems": [
@@ -256,6 +310,9 @@
   },
   {
     "matchItems": [
+      "ce_foodstuffs:chocolate",
+      "cozy:chocolate",
+      "enhancedfarming:chocolate_bar",
       "flavor_immersed_daily:chocolate",
       "manors_bounty:chocolate",
       "pasterdream:chocolate",
@@ -322,6 +379,7 @@
       "craziness_awakened:corn",
       "crockpot:corn",
       "culturaldelights:corn_cob",
+      "enhancedfarming:corn",
       "extradelight:corn_on_cob",
       "farm_and_charm:corn",
       "flavor_immersed_daily:corn",
@@ -351,6 +409,7 @@
       "corn_delight:corn_seeds",
       "crockpot:corn_seeds",
       "culturaldelights:corn_kernels",
+      "enhancedfarming:corn_seeds",
       "extradelight:corn_seeds",
       "farm_and_charm:kernels",
       "flavor_immersed_daily:corn_0",
@@ -377,6 +436,7 @@
   {
     "matchItems": [
       "culturaldelights:cucumber",
+      "enhancedfarming:cucumber",
       "flavor_immersed_daily:cucumber",
       "pizzacraft:cucumber",
       "simplefarming:cucumber",
@@ -390,6 +450,7 @@
   {
     "matchItems": [
       "culturaldelights:cucumber_seeds",
+      "enhancedfarming:cucumber_seeds",
       "flavor_immersed_daily:cucumber_seed",
       "pamhc2crops:cucumberseeditem",
       "pizzacraft:cucumber_seeds",
@@ -412,6 +473,7 @@
       "crockpot:eggplant",
       "culturaldelights:eggplant",
       "dumplings_delight:eggplant",
+      "enhancedfarming:aubergine",
       "minecolonies:eggplant",
       "pamhc2crops:eggplantitem",
       "sakura:eggplant",
@@ -426,6 +488,7 @@
       "crockpot:eggplant_seeds",
       "culturaldelights:eggplant_seeds",
       "dumplings_delight:eggplant_seeds",
+      "enhancedfarming:aubergine_seeds",
       "flavor_immersed_daily:aubergineseed",
       "flavor_immersed_daily:aubergineseedblock",
       "pamhc2crops:eggplantseeditem",
@@ -457,6 +520,7 @@
       "argentinas_delight:harinadetrigo",
       "bakeries:flour",
       "bountifulfares:flour",
+      "enhancedfarming:flour",
       "farm_and_charm:flour",
       "flavor_immersed_daily:wheatflour",
       "ltc2:wheat_powder",
@@ -487,6 +551,7 @@
       "braziliandelight:garlic",
       "crockpot:garlic",
       "dumplings_delight:garlic",
+      "enhancedfarming:garlic",
       "manors_bounty:garlic",
       "minecolonies:garlic",
       "ubesdelight:garlic"
@@ -496,6 +561,7 @@
   {
     "matchItems": [
       "crockpot:garlic_seeds",
+      "enhancedfarming:garlic_seeds",
       "pamhc2crops:garlicseeditem"
     ],
     "resultItems": "croptopia:garlic_seed"
@@ -521,6 +587,7 @@
   {
     "matchItems": [
       "chang_sheng_jue:grape",
+      "enhancedfarming:grapes",
       "flavor_immersed_daily:grape",
       "manors_bounty:grape",
       "pamhc2crops:grapeitem",
@@ -541,6 +608,19 @@
       "simplefarming:grape_seeds"
     ],
     "resultItems": "croptopia:grape_seed"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:mungbean_0",
+      "gan_delight_reborn:mung_bean"
+    ],
+    "resultItems": "croptopia:greenbean"
+  },
+  {
+    "matchItems": [
+      "gan_delight_reborn:mung_bean_crops"
+    ],
+    "resultItems": "croptopia:greenbean_seed"
   },
   {
     "matchItems": [
@@ -591,6 +671,7 @@
     "matchItems": [
       "bountifulfares:lemon",
       "braziliandelight:lemon",
+      "enhancedfarming:lemon",
       "fruitsdelight:lemon",
       "manors_bounty:lemon"
     ],
@@ -598,9 +679,22 @@
   },
   {
     "matchItems": [
+      "braziliandelight:lemon_sapling",
+      "enhancedfarming:lemon_sapling",
+      "flavor_immersed_daily:lemonsapling",
+      "pamhc2trees:lemon_sapling",
+      "productivetrees:lemon_sapling"
+    ],
+    "resultItems": "croptopia:lemon_sapling"
+  },
+  {
+    "matchItems": [
       "better_mcdonalds_mod:lettuce",
+      "ce_foodstuffs:lettuce",
       "craziness_awakened:leuce",
+      "enhancedfarming:lettuce",
       "farm_and_charm:lettuce",
+      "gan_delight_reborn:vegetable",
       "kaleidoscope_cookery:lettuce",
       "pamhc2crops:lettuceitem",
       "simplefarming:lettuce"
@@ -610,6 +704,8 @@
   {
     "matchItems": [
       "better_mcdonalds_mod:lettuce_seeds",
+      "ce_foodstuffs:lettuce_seeds",
+      "enhancedfarming:lettuce_seeds",
       "farm_and_charm:lettuce_seeds",
       "kaleidoscope_cookery:lettuce_seed",
       "pamhc2crops:lettuceseeditem",
@@ -620,6 +716,7 @@
   {
     "matchItems": [
       "chang_sheng_jue:mango",
+      "enhancedfarming:mango",
       "flavor_immersed_daily:mango",
       "fruitsdelight:mango",
       "manors_bounty:mango",
@@ -636,6 +733,7 @@
   {
     "matchItems": [
       "chang_sheng_jue:mango_sapling",
+      "enhancedfarming:mango_sapling",
       "flavor_immersed_daily:mangosapling",
       "fruitsdelight:mango_sapling",
       "pamhc2trees:mango_sapling",
@@ -673,6 +771,7 @@
   {
     "matchItems": [
       "bakeries:olive",
+      "enhancedfarming:olive",
       "manors_bounty:olive_fruit",
       "pamhc2trees:oliveitem",
       "pizzacraft:olive",
@@ -683,6 +782,15 @@
   },
   {
     "matchItems": [
+      "bakeries:olive_oil",
+      "enhancedfarming:olive_oil",
+      "pizzacraft:olive_oil",
+      "simplefarming:olive_oil"
+    ],
+    "resultItems": "croptopia:olive_oil"
+  },
+  {
+    "matchItems": [
       "manors_bounty:olive_fruit_seed"
     ],
     "resultItems": "croptopia:olive_seed"
@@ -690,6 +798,7 @@
   {
     "matchItems": [
       "crockpot:onion_seeds",
+      "enhancedfarming:onion_seeds",
       "flavor_immersed_daily:onionseed",
       "pamhc2crops:onionseeditem",
       "sakura:onion_seeds",
@@ -700,6 +809,7 @@
   {
     "matchItems": [
       "bountifulfares:orange",
+      "enhancedfarming:orange",
       "flavor_immersed_daily:orange",
       "pamhc2trees:orangeitem",
       "productivetrees:orange",
@@ -752,6 +862,7 @@
   {
     "matchItems": [
       "chang_sheng_jue:pear",
+      "enhancedfarming:pear",
       "flavor_immersed_daily:pear",
       "fruitsdelight:pear",
       "pamhc2trees:pearitem",
@@ -763,6 +874,7 @@
   {
     "matchItems": [
       "chang_sheng_jue:pear_sapling",
+      "enhancedfarming:pear_sapling",
       "flavor_immersed_daily:pearsapling",
       "pamhc2trees:pear_sapling",
       "productivetrees:cultivated_pear_sapling",
@@ -794,6 +906,7 @@
     "matchItems": [
       "chang_sheng_jue:pineapple",
       "craziness_awakened:pineapple",
+      "enhancedfarming:pineapple",
       "flavor_immersed_daily:pineapple",
       "fruitsdelight:pineapple",
       "jellyfishing:pineapple",
@@ -805,6 +918,7 @@
   {
     "matchItems": [
       "chang_sheng_jue:pineapple_seeds",
+      "enhancedfarming:pineapple_seeds",
       "jellyfishing:pineapple_seeds",
       "pamhc2crops:pineappleseeditem",
       "pizzacraft:pineapple_seeds"
@@ -910,6 +1024,7 @@
       "bakeries:salt",
       "better_mcdonalds_mod:salt",
       "braziliandelight:salt",
+      "enhancedfarming:salt",
       "ltc2:salt",
       "pamhc2foodcore:saltitem",
       "pasterdream:salt",
@@ -929,6 +1044,7 @@
   {
     "matchItems": [
       "chang_sheng_jue:soybean",
+      "gan_delight_reborn:soya_bean",
       "minecolonies:soybean",
       "sakura:soybean",
       "simplefarming:soybean",
@@ -1067,10 +1183,12 @@
   {
     "matchItems": [
       "better_mcdonalds_mod:raw_bacon",
+      "cozy:raw_bacon",
       "craziness_awakened:bacon",
       "croptopia:bacon",
       "farm_and_charm:bacon",
-      "simplefarming:raw_bacon"
+      "simplefarming:raw_bacon",
+      "tconstruct:bacon"
     ],
     "resultItems": "farmersdelight:bacon"
   },
@@ -1086,6 +1204,7 @@
       "flavor_immersed_daily:cabbage",
       "minecolonies:cabbage",
       "pamhc2crops:cabbageitem",
+      "ravageandcabbage:cabbage",
       "sakura:cabbage"
     ],
     "resultItems": "farmersdelight:cabbage"
@@ -1095,6 +1214,7 @@
       "croptopia:cabbage_seed",
       "flavor_immersed_daily:cabbageseed",
       "pamhc2crops:cabbageseeditem",
+      "ravageandcabbage:cabbage_seeds",
       "sakura:cabbage_seeds"
     ],
     "resultItems": "farmersdelight:cabbage_seeds"
@@ -1102,6 +1222,7 @@
   {
     "matchItems": [
       "better_mcdonalds_mod:cooked_bacon",
+      "cozy:cooked_bacon",
       "craziness_awakened:cooked_bacon",
       "croptopia:cooked_bacon",
       "simplefarming:cooked_bacon"
@@ -1123,8 +1244,11 @@
     "matchItems": [
       "additionaladditions:fried_egg",
       "bakeries:whole_egg",
+      "cozy:cooked_egg",
       "crockpot:cooked_egg",
       "croptopia:sunny_side_eggs",
+      "divinerpg:boiled_egg",
+      "enhancedfarming:baked_egg",
       "extradelight:boiled_egg",
       "farmersplus:boiled_egg",
       "flavor_immersed_daily:boilegg",
@@ -1162,8 +1286,11 @@
   {
     "matchItems": [
       "bakeries:bottle_milk",
+      "ce_foodstuffs:milk_bottle",
+      "cozy:milk_bottle",
       "crockpot:milk_bottle",
       "croptopia:milk_bottle",
+      "enhancedfarming:milk_bottle",
       "kitchenkarrot:milk",
       "neapolitan:milk_bottle",
       "vanillacookbook:milk_bottle"
@@ -1180,6 +1307,7 @@
     "matchItems": [
       "crockpot:onion",
       "croptopia:onion",
+      "enhancedfarming:onion",
       "farm_and_charm:onion",
       "flavor_immersed_daily:onion",
       "minecolonies:onion",
@@ -1210,12 +1338,17 @@
     "matchItems": [
       "bakeries:tomato",
       "better_mcdonalds_mod:tomato",
+      "ce_foodstuffs:tomato",
       "chang_sheng_jue:tomato",
+      "cozy:tomato",
       "craziness_awakened:tomato",
       "crockpot:tomato",
       "croptopia:tomato",
+      "divinerpg:tomato",
+      "enhancedfarming:tomato",
       "farm_and_charm:tomato",
       "flavor_immersed_daily:tomato",
+      "journey:tomato",
       "kaleidoscope_cookery:tomato",
       "minecolonies:tomato",
       "pamhc2crops:tomatoitem",
@@ -1236,10 +1369,13 @@
     "matchItems": [
       "better_mcdonalds_mod:tomato_seeds",
       "chang_sheng_jue:tomato_seeds",
+      "cozy:tomato_seeds",
       "crockpot:tomato_seeds",
       "croptopia:tomato_seed",
+      "enhancedfarming:tomato_seeds",
       "farm_and_charm:tomato_seeds",
       "flavor_immersed_daily:tomatoseed",
+      "journey:tomatoseeds",
       "kaleidoscope_cookery:tomato_seed",
       "pizzacraft:tomato_seeds",
       "sakura:tomato_seeds",
@@ -1250,8 +1386,10 @@
   },
   {
     "matchItems": [
+      "cozy:dough",
       "create:dough",
       "croptopia:dough",
+      "enhancedfarming:dough",
       "farm_and_charm:dough",
       "flavor_immersed_daily:dough",
       "pamhc2foodcore:doughitem",
@@ -1307,7 +1445,8 @@
   {
     "matchItems": [
       "chang_sheng_jue:lotus_root",
-      "flavor_immersed_daily:lotusroot"
+      "flavor_immersed_daily:lotusroot",
+      "gan_delight_reborn:lotus_root"
     ],
     "resultItems": "pamhc2crops:lotusitem"
   },
