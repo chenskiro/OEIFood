@@ -209,7 +209,6 @@
 
 <details>
 <summary>🌿 农夫乐事 (Farmer's Delight) 及其生态</summary>
- 
 | 模组名称 (Mod Name) & ID |
 | :--- |
 | **Farmer's Delight** (`farmersdelight`) - **核心** |
@@ -217,14 +216,18 @@
 | Brazilian Delight (`braziliandelight`) |
 | Collector's Reap (`collectorsreap`) |
 | Corn Delight (`corn_delight`) |
+| Crabber's Delight (`crabbersdelight`) |
 | Cultural Delights (`culturaldelights`) |
 | Delightful (`delightful`) |
 | Dumplings Delight (`dumplings_delight`) |
+| Ender's Delight (`endersdelight`) |
 | Extra Delight (`extradelight`) |
 | Farmer's Respite (`farmersrespite`) |
+| Farmers Plus (`farmersplus`) |
 | Festive Delight (`festive_delight`) |
 | Fruits Delight (`fruitsdelight`) |
 | Manors Bounty (`manors_bounty`) |
+| My Nether's Delight (`mynethersdelight`) |
 | Muffins' Thai Delight (`muffins_thaidelight`) |
 | Rustic Delights (`rusticdelight`) |
 | Seed Delight (`seeddelight`) |
@@ -232,53 +235,76 @@
 | Ube's Delight (`ubesdelight`) |
 | Unusual Delights (`unusual_delight`) |
 | Vintage Delight (`vintagedelight`) |
- 
+ 
 </details>
- 
+ 
 <details>
 <summary>🍎 潘马斯农场2 (Pam's HarvestCraft 2) 生态</summary>
- 
+ 
 | 模组名称 (Mod Name) & ID |
 | :--- |
 | **Pam's HarvestCraft 2 - Crops** (`pamhc2crops`) - **核心** |
 | **Pam's HarvestCraft 2 - Food Core** (`pamhc2foodcore`) - **核心** |
+| **Pam's HarvestCraft 2 - Food Extended** (`pamhc2foodextended`) - **核心** |
 | **Pam's HarvestCraft 2 - Trees** (`pamhc2trees`) - **核心** |
- 
+ 
 </details>
- 
+ 
 <details>
 <summary>✨ 其他已兼容的独立模组</summary>
- 
+ 
 | 模组名称 (Mod Name) & ID |
 | :--- |
-| Croptopia (`croptopia`) |
+| Additional Additions (`additionaladditions`) |
 | Alex's Mobs (`alexsmobs`) |
+| Bakeries (`bakeries`) |
+| Bakery (`bakery`) |
+| Better McDonald's Mod (`better_mcdonalds_mod`) |
 | Biomes O' Plenty (`biomesoplenty`) |
 | Bountiful Fares (`bountifulfares`) |
+| Brewin' and Chewin' (`brewinandchewin`) |
+| CE Foodstuffs (`ce_foodstuffs`) |
+| Chang Sheng Jue (`chang_sheng_jue`) |
+| Cozy (`cozy`) |
+| Craziness Awakened (`craziness_awakened`) |
 | Create (`create`) |
 | Crock Pot (`crockpot`) |
+| Croptopia (`croptopia`) |
+| DivineRPG (`divinerpg`) |
+| Enhanced Farming (`enhancedfarming`) |
+| Extra Meat (`extrameat`) |
 | Farm and Charm (`farm_and_charm`) |
 | Flavor Immersed Daily (`flavor_immersed_daily`) |
+| Gan Delight Reborn (`gan_delight_reborn`) |
 | Herbal Brews (`herbalbrews`) |
 | Jellyfishing (`jellyfishing`) |
+| Journey (`journey`) |
 | Kaleidoscope Cookery (`kaleidoscope_cookery`) |
+| Kawaii Dishes (`kawaiidishes`) |
 | Kitchenkarrot (`kitchenkarrot`) |
+| Legendary Survival Overhaul (`legendarysurvivaloverhaul`) |
 | Lt2 (`ltc2`) |
 | Meadow (`meadow`) |
 | MineColonies (`minecolonies`) |
 | Neapolitan (`neapolitan`) |
 | Pasterdream (`pasterdream`) |
+| PizzaCraft (`pizzacraft`) |
 | Productive Trees (`productivetrees`) |
+| Ravage and Cabbage (`ravageandcabbage`) |
+| Refurbished Furniture (`refurbished_furniture`) |
 | Sakura (`sakura`) |
 | Simple Farming (`simplefarming`) |
 | Sushi Go Crafting (`sushigocrafting`) |
 | Tea Story (`teastory`) |
+| Tconstruct (`tconstruct`) |
 | Thermal Series (`thermal`) |
+| TofuCraft (`tofucraft`) |
+| Tough As Nails (`toughasnails`) |
 | Vanilla Cookbook (`vanillacookbook`) |
 | Vinery (`vinery`) |
-| Youkai's Homecoming (`youkaishomecoming`) |
 | Youkai's Feasts (`youkaisfeasts`) |
- 
+| Youkai's Homecoming (`youkaishomecoming`) |
+ 
 </details>
  
 
