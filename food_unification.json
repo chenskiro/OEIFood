@@ -1,6 +1,23 @@
 [
   {
     "matchItems": [
+      "chang_sheng_jue:apple_juice",
+      "enhancedfarming:apple_juice",
+      "flavor_immersed_daily:applejuice",
+      "flavor_immersed_daily:strawberryjuice",
+      "legendarysurvivaloverhaul:apple_juice",
+      "manors_bounty:apple_juice",
+      "manors_bounty:apple_juice_block",
+      "pamhc2foodcore:applejuiceitem",
+      "pasterdream:apple_juice",
+      "unusual_delight:apple_juice",
+      "vanillacookbook:apple_juice",
+      "vinery:apple_juice"
+    ],
+    "resultItems": "croptopia:apple_juice"
+  },
+  {
+    "matchItems": [
       "enhancedfarming:apple_sapling",
       "flavor_immersed_daily:applesapling",
       "fruitsdelight:apple_sapling",
@@ -27,6 +44,14 @@
       "tofucraft:apricot"
     ],
     "resultItems": "croptopia:apricot"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:apricotjam",
+      "pamhc2foodextended:apricotjellyitem",
+      "tofucraft:apricotjerry_bottle"
+    ],
+    "resultItems": "croptopia:apricot_jam"
   },
   {
     "matchItems": [
@@ -128,10 +153,24 @@
   },
   {
     "matchItems": [
+      "ltc2:pepper_sweet",
+      "minecolonies:bell_pepper",
+      "pamhc2crops:bellpepperitem"
+    ],
+    "resultItems": "croptopia:bellpepper"
+  },
+  {
+    "matchItems": [
       "pamhc2crops:blackberryitem",
       "simplefarming:blackberries"
     ],
     "resultItems": "croptopia:blackberry"
+  },
+  {
+    "matchItems": [
+      "pamhc2foodextended:blackberryjellyitem"
+    ],
+    "resultItems": "croptopia:blackberry_jam"
   },
   {
     "matchItems": [
@@ -141,6 +180,14 @@
       "simplefarming:blueberries"
     ],
     "resultItems": "croptopia:blueberry"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:blueberryjam",
+      "fruitsdelight:blueberry_jelly",
+      "pamhc2foodextended:blueberryjellyitem"
+    ],
+    "resultItems": "croptopia:blueberry_jam"
   },
   {
     "matchItems": [
@@ -243,6 +290,7 @@
       "meadow:piece_of_cheese",
       "pamhc2foodcore:cheeseitem",
       "pizzacraft:cheese",
+      "refurbished_furniture:cheese",
       "sakura:cheese",
       "simplefarming:cheese_slice",
       "tconstruct:cheese_ingot",
@@ -271,6 +319,12 @@
       "vinery:cherry"
     ],
     "resultItems": "croptopia:cherry"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:cherryjam"
+    ],
+    "resultItems": "croptopia:cherry_jam"
   },
   {
     "matchItems": [
@@ -429,6 +483,12 @@
   },
   {
     "matchItems": [
+      "pamhc2foodextended:cranberryjuiceitem"
+    ],
+    "resultItems": "croptopia:cranberry_juice"
+  },
+  {
+    "matchItems": [
       "pamhc2crops:cranberryseeditem"
     ],
     "resultItems": "croptopia:cranberry_seed"
@@ -438,6 +498,7 @@
       "culturaldelights:cucumber",
       "enhancedfarming:cucumber",
       "flavor_immersed_daily:cucumber",
+      "pamhc2crops:cucumberitem",
       "pizzacraft:cucumber",
       "simplefarming:cucumber",
       "teastory:cucumber",
@@ -499,6 +560,12 @@
   },
   {
     "matchItems": [
+      "pamhc2foodextended:elderberryjellyitem"
+    ],
+    "resultItems": "croptopia:elderberry_jam"
+  },
+  {
+    "matchItems": [
       "fruitsdelight:fig",
       "manors_bounty:fig",
       "pamhc2trees:figitem",
@@ -526,6 +593,7 @@
       "ltc2:wheat_powder",
       "pamhc2foodcore:flouritem",
       "pasterdream:flour",
+      "refurbished_furniture:wheat_flour",
       "sakura:flour"
     ],
     "resultItems": "croptopia:flour"
@@ -601,6 +669,23 @@
   },
   {
     "matchItems": [
+      "flavor_immersed_daily:grapejam",
+      "pamhc2foodextended:grapejellyitem"
+    ],
+    "resultItems": "croptopia:grape_jam"
+  },
+  {
+    "matchItems": [
+      "chang_sheng_jue:grape_juice",
+      "flavor_immersed_daily:grapejuice",
+      "manors_bounty:grape_juice",
+      "manors_bounty:grape_juice_block",
+      "pamhc2foodextended:grapejuiceitem"
+    ],
+    "resultItems": "croptopia:grape_juice"
+  },
+  {
+    "matchItems": [
       "chang_sheng_jue:grape_seeds",
       "flavor_immersed_daily:grapeseed",
       "manors_bounty:grape_seed",
@@ -634,6 +719,17 @@
       "pamhc2crops:scallionseeditem"
     ],
     "resultItems": "croptopia:greenonion_seed"
+  },
+  {
+    "matchItems": [
+      "extradelight:cheese_sandwich",
+      "meadow:cheese_sandwich",
+      "pamhc2foodcore:grilledcheeseitem",
+      "pamhc2foodextended:groiledcheesesandwichitem",
+      "refurbished_furniture:cheese_sandwich",
+      "refurbished_furniture:cheese_toastie"
+    ],
+    "resultItems": "croptopia:grilled_cheese"
   },
   {
     "matchItems": [
@@ -720,7 +816,9 @@
       "flavor_immersed_daily:mango",
       "fruitsdelight:mango",
       "manors_bounty:mango",
-      "simplefarming:mango"
+      "simplefarming:mango",
+      "pamhc2trees:mangoitem",
+      "productivetrees:mango"
     ],
     "resultItems": "croptopia:mango"
   },
@@ -819,12 +917,25 @@
   },
   {
     "matchItems": [
+      "enhancedfarming:orange_juice",
+      "flavor_immersed_daily:orangejuice"
+    ],
+    "resultItems": "croptopia:orange_juice"
+  },
+  {
+    "matchItems": [
       "craziness_awakened:peach",
       "fruitsdelight:peach",
       "manors_bounty:peach",
       "productivetrees:peach"
     ],
     "resultItems": "croptopia:peach"
+  },
+  {
+    "matchItems": [
+      "pamhc2foodextended:peachjellyitem"
+    ],
+    "resultItems": "croptopia:peach_jam"
   },
   {
     "matchItems": [
@@ -840,6 +951,9 @@
   },
   {
     "matchItems": [
+      "flavor_immersed_daily:peanutjam",
+      "jellyfishing:seanut_butter",
+      "pamhc2foodextended:peanutbutteritem",
       "thermal:peanut_butter"
     ],
     "resultItems": "croptopia:peanut_butter"
@@ -917,6 +1031,17 @@
   },
   {
     "matchItems": [
+      "enhancedfarming:pineapple_juice",
+      "flavor_immersed_daily:pineapplejuice",
+      "manors_bounty:pineapple_juice",
+      "manors_bounty:pineapple_juice_block",
+      "pamhc2foodextended:pineapplejuiceitem",
+      "toughasnails:apple_juice"
+    ],
+    "resultItems": "croptopia:pineapple_juice"
+  },
+  {
+    "matchItems": [
       "chang_sheng_jue:pineapple_seeds",
       "enhancedfarming:pineapple_seeds",
       "jellyfishing:pineapple_seeds",
@@ -982,6 +1107,12 @@
   },
   {
     "matchItems": [
+      "pamhc2foodextended:raspberryjellyitem"
+    ],
+    "resultItems": "croptopia:raspberry_jam"
+  },
+  {
+    "matchItems": [
       "pamhc2crops:raspberryseeditem"
     ],
     "resultItems": "croptopia:raspberry_seed"
@@ -1043,6 +1174,15 @@
   },
   {
     "matchItems": [
+      "minecolonies:soysauce",
+      "pamhc2foodextended:soysauceitem",
+      "sakura:soysauce",
+      "tofucraft:bottle_soysause"
+    ],
+    "resultItems": "croptopia:soy_sauce"
+  },
+  {
+    "matchItems": [
       "chang_sheng_jue:soybean",
       "gan_delight_reborn:soya_bean",
       "minecolonies:soybean",
@@ -1099,6 +1239,14 @@
   },
   {
     "matchItems": [
+      "bakery:strawberry_jam",
+      "flavor_immersed_daily:strawberryjam",
+      "pamhc2foodextended:strawberryjellyitem"
+    ],
+    "resultItems": "croptopia:strawberry_jam"
+  },
+  {
+    "matchItems": [
       "farm_and_charm:strawberry_seeds",
       "thermal:strawberry_seeds"
     ],
@@ -1145,6 +1293,13 @@
   },
   {
     "matchItems": [
+      "extradelight:tomato_juice",
+      "farmersplus:tomato_juice"
+    ],
+    "resultItems": "croptopia:tomato_juice"
+  },
+  {
+    "matchItems": [
       "pamhc2crops:turnipitem",
       "simplefarming:turnip"
     ],
@@ -1156,6 +1311,12 @@
       "simplefarming:turnip_seeds"
     ],
     "resultItems": "croptopia:turnip_seed"
+  },
+  {
+    "matchItems": [
+      "kitchenkarrot:water"
+    ],
+    "resultItems": "croptopia:water_bottle"
   },
   {
     "matchItems": [
@@ -1179,6 +1340,13 @@
       "simplefarming:zucchini_seeds"
     ],
     "resultItems": "croptopia:zucchini_seed"
+  },
+  {
+    "matchItems": [
+      "pamhc2foodextended:cherryjellyitem",
+      "seeddelight:cherry_jam_jar"
+    ],
+    "resultItems": "extradelight:rabbit_ragu"
   },
   {
     "matchItems": [
@@ -1278,6 +1446,11 @@
     "matchItems": [
       "croptopia:melon_juice",
       "farmersrespite:strong_melon_juice",
+      "legendarysurvivaloverhaul:melon_juice",
+      "manors_bounty:watermelon_juice",
+      "pamhc2foodcore:melonjuiceitem",
+      "pasterdream:watermelon_juice",
+      "toughasnails:melon_juice",
       "unusual_delight:melon_juice",
       "vanillacookbook:melon_juice"
     ],
@@ -1293,6 +1466,7 @@
       "enhancedfarming:milk_bottle",
       "kitchenkarrot:milk",
       "neapolitan:milk_bottle",
+      "pamhc2foodcore:freshmilkitem",
       "vanillacookbook:milk_bottle"
     ],
     "resultItems": "farmersdelight:milk_bottle"
@@ -1322,6 +1496,7 @@
   {
     "matchItems": [
       "croptopia:rice",
+      "flavor_immersed_daily:paddygrain",
       "kaleidoscope_cookery:rice",
       "minecolonies:rice",
       "pamhc2crops:riceitem",
@@ -1361,6 +1536,9 @@
   },
   {
     "matchItems": [
+      "extradelight:ketchup_jar_item",
+      "pamhc2foodextended:ketchupitem",
+      "pizzacraft:tomato_sauce",
       "sakura:tomato_sauce"
     ],
     "resultItems": "farmersdelight:tomato_sauce"
@@ -1395,22 +1573,26 @@
       "pamhc2foodcore:doughitem",
       "pasterdream:dough",
       "pizzacraft:dough",
+      "refurbished_furniture:dough",
       "sakura:dough"
     ],
     "resultItems": "farmersdelight:wheat_dough"
   },
   {
     "matchItems": [
-      "chang_sheng_jue:mulberry",
-      "flavor_immersed_daily:mulberry"
+      "dumplings_delight:chinese_cabbage",
+      "flavor_immersed_daily:chineseleaves",
+      "teastory:chinese_cabbage"
     ],
-    "resultItems": "flavor_immersed_daily:mulberry"
+    "resultItems": "pamhc2crops:bokchoyitem"
   },
   {
     "matchItems": [
-      "simplefarming:cactus_fruit"
+      "dumplings_delight:chinese_cabbage_seeds",
+      "flavor_immersed_daily:chineseleavesseed",
+      "teastory:chinese_cabbage_seeds"
     ],
-    "resultItems": "pamhc2crops:cactusfruititem"
+    "resultItems": "pamhc2crops:bokchoyseeditem"
   },
   {
     "matchItems": [
@@ -1504,9 +1686,341 @@
   },
   {
     "matchItems": [
+      "sakura:taro"
+    ],
+    "resultItems": "pamhc2crops:taroitem"
+  },
+  {
+    "matchItems": [
+      "bakery:apple_jam",
+      "brewinandchewin:apple_jelly",
+      "extradelight:apple_jam",
+      "flavor_immersed_daily:applejam",
+      "fruitsdelight:apple_jelly",
+      "vanillacookbook:apple_sauce",
+      "vintagedelight:apple_sauce_bottle",
+      "vintagedelight:apple_sauce_mason_jar"
+    ],
+    "resultItems": "pamhc2foodcore:applejellyitem"
+  },
+  {
+    "matchItems": [
+      "legendarysurvivaloverhaul:chorus_fruit_juice"
+    ],
+    "resultItems": "pamhc2foodcore:chorusjuiceitem"
+  },
+  {
+    "matchItems": [
+      "endersdelight:chorus_juice",
+      "manors_bounty:chorus_fruit_juice",
+      "toughasnails:chorus_fruit_juice",
+      "vanillacookbook:chorus_juice"
+    ],
+    "resultItems": "pamhc2foodcore:chorusjuiceitem"
+  },
+  {
+    "matchItems": [
+      "extradelight:mayo_jar_item"
+    ],
+    "resultItems": "pamhc2foodcore:mayonaiseitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:watermelonjam",
+      "fruitsdelight:melon_jelly"
+    ],
+    "resultItems": "pamhc2foodcore:melonjellyitem"
+  },
+  {
+    "matchItems": [
+      "bakery:sweetberry_jam",
+      "brewinandchewin:sweet_berry_jam",
+      "extradelight:sweet_berry_jam",
+      "flavor_immersed_daily:sweetberryjam",
+      "refurbished_furniture:sweet_berry_jam",
+      "vintagedelight:sweet_berry_jam_bottle"
+    ],
+    "resultItems": "pamhc2foodcore:sweetberryjellyitem"
+  },
+  {
+    "matchItems": [
+      "extradelight:sweet_berry_juice",
+      "flavor_immersed_daily:sweetberryjuice",
+      "toughasnails:sweet_berry_juice",
+      "vanillacookbook:berry_juice"
+    ],
+    "resultItems": "pamhc2foodcore:sweetberryjuiceitem"
+  },
+  {
+    "matchItems": [
+      "dumplings_delight:vinegar",
+      "extradelight:vinegar",
+      "flavor_immersed_daily:vinegar",
+      "simplefarming:vinegar"
+    ],
+    "resultItems": "pamhc2foodcore:vinegaritem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:apricotjuice"
+    ],
+    "resultItems": "pamhc2foodextended:apricotjuiceitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:bananajam"
+    ],
+    "resultItems": "pamhc2foodextended:bananajellyitem"
+  },
+  {
+    "matchItems": [
+      "enhancedfarming:banana_juice",
+      "flavor_immersed_daily:bananajuice"
+    ],
+    "resultItems": "pamhc2foodextended:bananajuiceitem"
+  },
+  {
+    "matchItems": [
+      "extradelight:bbq_jar_item"
+    ],
+    "resultItems": "pamhc2foodextended:bbqsauceitem"
+  },
+  {
+    "matchItems": [
+      "youkaishomecoming:black_grape_juice"
+    ],
+    "resultItems": "pamhc2foodextended:blackberryjuiceitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:blueberryjuice"
+    ],
+    "resultItems": "pamhc2foodextended:blueberryjuiceitem"
+  },
+  {
+    "matchItems": [
+      "delightful:prickly_pear_juice",
+      "extradelight:cactus_juice",
+      "vanillacookbook:cactus_juice"
+    ],
+    "resultItems": "pamhc2foodextended:cactusfruitjuiceitem"
+  },
+  {
+    "matchItems": [
+      "delightful:prickly_pear_juice",
+      "extradelight:cactus_juice",
+      "legendarysurvivaloverhaul:cactus_juice",
+      "simplefarming:cactus_fruit",
+      "toughasnails:cactus_juice",
+      "unusual_delight:cactus_ale",
+      "vanillacookbook:cactus_juice"
+    ],
+    "resultItems": "pamhc2foodextended:cactusfruitjuiceitem"
+  },
+  {
+    "matchItems": [
+      "legendarysurvivaloverhaul:carrot_juice",
+      "pamhc2foodcore:carrotjuiceitem"
+    ],
+    "resultItems": "pamhc2foodextended:carrotjuiceitem"
+  },
+  {
+    "matchItems": [
+      "enhancedfarming:cherry_juice",
+      "flavor_immersed_daily:cherryjuice"
+    ],
+    "resultItems": "pamhc2foodextended:cherryjuiceitem"
+  },
+  {
+    "matchItems": [
       "minecolonies:cornmeal"
     ],
     "resultItems": "pamhc2foodextended:cornmealitem"
+  },
+  {
+    "matchItems": [
+      "fruitsdelight:cranberry_jelly"
+    ],
+    "resultItems": "pamhc2foodextended:cranberryjellyitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:dragonfruitjam"
+    ],
+    "resultItems": "pamhc2foodextended:dragonfruitjellyitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:dragonfruiejuice"
+    ],
+    "resultItems": "pamhc2foodextended:dragonfruitjuiceitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:durianjam",
+      "fruitsdelight:durian_jelly"
+    ],
+    "resultItems": "pamhc2foodextended:durianjellyitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:durianjuice"
+    ],
+    "resultItems": "pamhc2foodextended:durianjuiceitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:kiwifruitjam",
+      "fruitsdelight:kiwi_jelly"
+    ],
+    "resultItems": "pamhc2foodextended:kiwijellyitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:kiwifruitjuice",
+      "fruitsdelight:kiwi_juice",
+      "manors_bounty:kiwifruit_juice",
+      "manors_bounty:kiwifruit_juice_block"
+    ],
+    "resultItems": "pamhc2foodextended:kiwijuiceitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:lemonjuice",
+      "fruitsdelight:lemon_juice"
+    ],
+    "resultItems": "pamhc2foodextended:lemonjuiceitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:lycheejam",
+      "fruitsdelight:lychee_jelly"
+    ],
+    "resultItems": "pamhc2foodextended:lycheejellyitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:lycheejuice"
+    ],
+    "resultItems": "pamhc2foodextended:lycheejuiceitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:mangojam",
+      "fruitsdelight:mango_jelly"
+    ],
+    "resultItems": "pamhc2foodextended:mangojellyitem"
+  },
+  {
+    "matchItems": [
+      "enhancedfarming:mango_juice",
+      "flavor_immersed_daily:mangojuice",
+      "manors_bounty:mango_juice"
+    ],
+    "resultItems": "pamhc2foodextended:mangojuiceitem"
+  },
+  {
+    "matchItems": [
+      "chang_sheng_jue:mulberry",
+      "chang_sheng_jue:mulberry_juice",
+      "flavor_immersed_daily:mulberry"
+    ],
+    "resultItems": "pamhc2foodextended:mulberryjuiceitem"
+  },
+  {
+    "matchItems": [
+      "chang_sheng_jue:mi_fan",
+      "collectorsreap:big_rice_ball",
+      "culturaldelights:rice_ball",
+      "extradelight:riceball",
+      "manors_bounty:onigiri",
+      "minecolonies:rice_ball",
+      "sakura:onigiri",
+      "teastory:rice_ball",
+      "tofucraft:onigiri",
+      "youkaishomecoming:onigili"
+    ],
+    "resultItems": "pamhc2foodextended:onigiriitem"
+  },
+  {
+    "matchItems": [
+      "manors_bounty:orange_juice",
+      "manors_bounty:orange_juice_block"
+    ],
+    "resultItems": "pamhc2foodextended:orangejuiceitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:pawpawjam"
+    ],
+    "resultItems": "pamhc2foodextended:papayajellyitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:pawpawjuice",
+      "muffins_thaidelight:papaya_juice"
+    ],
+    "resultItems": "pamhc2foodextended:papayajuiceitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:pearjam",
+      "fruitsdelight:pear_jelly"
+    ],
+    "resultItems": "pamhc2foodextended:pearjellyitem"
+  },
+  {
+    "matchItems": [
+      "enhancedfarming:pear_juice",
+      "flavor_immersed_daily:pearjuice",
+      "fruitsdelight:pear_juice"
+    ],
+    "resultItems": "pamhc2foodextended:pearjuiceitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:pineapplejam",
+      "fruitsdelight:pineapple_jelly"
+    ],
+    "resultItems": "pamhc2foodextended:pineapplejellyitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:pkumjuice"
+    ],
+    "resultItems": "pamhc2foodextended:plumjuiceitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:pomegranatejam"
+    ],
+    "resultItems": "pamhc2foodextended:pomegranatejellyitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:pomegranatejuice",
+      "manors_bounty:pomegranate_juice",
+      "manors_bounty:pomegranate_juice_block"
+    ],
+    "resultItems": "pamhc2foodextended:pomegranatejuiceitem"
+  },
+  {
+    "matchItems": [
+      "vintagedelight:relish_bottle"
+    ],
+    "resultItems": "pamhc2foodextended:relishitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:carambolajam"
+    ],
+    "resultItems": "pamhc2foodextended:starfruitjellyitem"
+  },
+  {
+    "matchItems": [
+      "flavor_immersed_daily:carambolajuice"
+    ],
+    "resultItems": "pamhc2foodextended:starfruitjuiceitem"
   },
   {
     "matchItems": [
