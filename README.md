@@ -209,6 +209,7 @@
 
 <details>
 <summary>🌿 农夫乐事 (Farmer's Delight) 及其生态</summary>
+ 
 | 模组名称 (Mod Name) & ID |
 | :--- |
 | **Farmer's Delight** (`farmersdelight`) - **核心** |
@@ -235,24 +236,24 @@
 | Ube's Delight (`ubesdelight`) |
 | Unusual Delights (`unusual_delight`) |
 | Vintage Delight (`vintagedelight`) |
- 
+
 </details>
  
 <details>
 <summary>🍎 潘马斯农场2 (Pam's HarvestCraft 2) 生态</summary>
- 
+
 | 模组名称 (Mod Name) & ID |
 | :--- |
 | **Pam's HarvestCraft 2 - Crops** (`pamhc2crops`) - **核心** |
 | **Pam's HarvestCraft 2 - Food Core** (`pamhc2foodcore`) - **核心** |
 | **Pam's HarvestCraft 2 - Food Extended** (`pamhc2foodextended`) - **核心** |
 | **Pam's HarvestCraft 2 - Trees** (`pamhc2trees`) - **核心** |
- 
+
 </details>
  
 <details>
 <summary>✨ 其他已兼容的独立模组</summary>
- 
+
 | 模组名称 (Mod Name) & ID |
 | :--- |
 | Additional Additions (`additionaladditions`) |
